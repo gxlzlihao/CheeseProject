@@ -1,0 +1,232 @@
+/*reset of the css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+/*end of the reset*/
+
+body{
+    text-align:center;
+    overflow: scroll;
+}
+div#top_picture{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 1440px;
+    height: 400px;
+    text-align:center;
+    background-image: url("top_background_text.png");
+}
+
+div#advantages{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+div#advantage_title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1104px;
+    text-align:center;
+}
+div#advantage_items{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+div#advantage_items>div{
+    display: inline-block;
+    margin-right: 80px;
+    vertical-align:top;
+}
+div#advantage_items>div:last-of-type{
+    margin-right: 0px;
+}
+div#advantage_items div *{
+
+    display: block;
+}
+div#advantage_items div div{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+div#advantage_items div div img{
+    margin: auto;
+}
+div#advantage_items div>span{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 5px;
+    font-family: SimHei;
+}
+div#advantage_items div>p{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    font-family: SimHei;
+}
+div#aboutUs_main{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1440px;
+    text-align:center;
+    background-color: #faac46;
+}
+div#aboutUs_main>img#aboutUs_title{
+    margin-top: 5px;
+}
+div#aboutUs_main>div{
+    position: relative;
+    width: 880px;
+    height: 500px;
+    /*background-color: aqua;*/
+    margin-top: 0px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#aboutUs_main>div img#aboutUs_picture{
+    width: 440px;
+    height: 360px;
+    position: absolute;
+    right: 0;
+    margin: 0;
+}
+div#aboutUs_main>div div.aboutUs_content{
+    width: 440px;
+    background-color: white;
+    left: 0;
+    top: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    position: relative;
+    display: block;
+    overflow-y: hidden;
+}
+div#aboutUs_main>div div.aboutUs_content>span{
+    text-align: left;
+    margin: 10px;
+    display: block;
+    position: relative;
+    letter-spacing: 2px;
+    font-family: SimHei;
+}
+div#aboutUs_main>div div.aboutUs_content>p{
+    text-align: left;
+    margin: 10px;
+    margin-top: 0px;
+    border-left: 5px solid #faac46;
+    padding-left: 10px;
+    display: block;
+    position: relative;
+    letter-spacing: 2px;
+    overflow-x: hidden;
+    font-family: SimHei;
+}
+div#search_area{
+    margin: 50px auto;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #a3a3a3;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #a3a3a3;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #a3a3a3;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #a3a3a3;
+}
+div#search_area input:first-child{
+    width: 400px;
+    height: 50px;
+    margin: 0 25px;
+    display:inline-block;
+    border: 6px solid #faac46;
+    border-radius: 20px;
+}
+div#search_area input:nth-child(2){
+    width: 150px;
+    height: 50px;
+    margin: 0 25px;
+    display:inline-block;
+    background-color: #faac46;
+    color: white;
+    letter-spacing: 3px;
+    border: 6px solid #faac46;
+    border-radius: 20px;
+}
+div#search_area input:nth-child(2):hover{
+    width: 150px;
+    height: 50px;
+    margin: 0 25px;
+    display:inline-block;
+    background-color: #eda342;
+    color: white;
+    letter-spacing: 3px;
+    border: 6px solid #eda342;
+    border-radius: 20px;
+}
+div#seperate_line{
+    margin: 0 auto;
+    width: 1104px;
+    height: 3px;
+    background-color: #e0e0e0;
+}
