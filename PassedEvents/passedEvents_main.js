@@ -35,11 +35,13 @@ $(document).ready(function(){
     });
 
     // set up animation of the showup area
-    var left_click_callback = function(){
+    var right_click_callback = function(){
+
+        if ( target_picture == 0 || target_picture == -1 ) return;
 
         target_picture = target_picture - 1;
 
-        $(this).animate({'width':'640px', 'height':'400px', 'top':'0', 'left':'370px', 'right':'370px', 'opacity':'1', 'z-index':'100'},
+        $(this).parent().children('img.showup_left').animate({'width':'640px', 'height':'400px', 'top':'0', 'left':'370px', 'right':'370px', 'opacity':'1', 'z-index':'100'},
             'slow',
             'linear',
             function(){
@@ -81,7 +83,7 @@ $(document).ready(function(){
                 $(this).one( 'click', left_click_callback );
             });
 
-        $(this).siblings('img.showup_right').animate({'z-index':'25', 'opacity':'0'},
+        $(this).parent().children('img.showup_right').animate({'z-index':'25', 'opacity':'0'},
             'normal',
             'linear',
             function(){
@@ -90,14 +92,18 @@ $(document).ready(function(){
             });
 
     };
-    if ( $('img.showup_left').css('display') != 'none' )
-        $('img.showup_left').one( 'click', left_click_callback );
+    if ( $('img.showup_right').css('display') != 'none' )
+        $('img.showup_right').one( 'click', right_click_callback );
+    if( $('img#showup_right_arrow').css('display') != 'none' )
+        $('img#showup_right_arrow').click( 'click', right_click_callback );
 
-    var right_click_callback = function() {
+    var left_click_callback = function() {
+
+        if ( target_picture == picture_array.length - 1 ) return;
 
         target_picture = target_picture + 1;
 
-        $(this).animate({'width':'640px', 'height':'400px', 'top':'0', 'left':'370px', 'right':'370px', 'opacity':'1', 'z-index':'100'},
+        $(this).parent().children('img.showup_right').animate({'width':'640px', 'height':'400px', 'top':'0', 'left':'370px', 'right':'370px', 'opacity':'1', 'z-index':'100'},
             'slow',
             'linear',
             function(){
@@ -111,7 +117,7 @@ $(document).ready(function(){
                 $(this).off( 'click' );
                 $(this).one( 'click', left_click_callback );
             });
-        $(this).siblings('img.showup_left').animate({'z-index':'25', 'opacity':'0'},
+        $(this).parent().children('img.showup_left').animate({'z-index':'25', 'opacity':'0'},
             'normal',
             'linear',
             function(){
@@ -150,8 +156,10 @@ $(document).ready(function(){
             });
 
     };
-    if ( $('img.showup_right').css('display') != 'none' )
-        $('img.showup_right').one( 'click', right_click_callback );
+    if ( $('img.showup_left').css('display') != 'none' )
+        $('img.showup_left').one( 'click', left_click_callback );
+    if( $('img#showup_left_arrow').css('display') != 'none' )
+        $('img#showup_left_arrow').click( 'click', left_click_callback );
     // end of the animation setup
 
     // set up the hover into and outside animation of the picture

@@ -234,6 +234,7 @@ div.showup_area>img#showup_left_arrow{
     left: 140px;
     right: 1200px;
     display: block;
+    cursor: pointer;
 }
 div.showup_area>img#showup_right_arrow{
     position: absolute;
@@ -246,5 +247,6 @@ div.showup_area>img#showup_right_arrow{
     right: 140px;
     left: 1200px;
     display: block;
+    cursor: pointer
 }
 /* the end of the layout setup */
