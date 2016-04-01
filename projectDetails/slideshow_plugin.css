@@ -1,0 +1,91 @@
+ul#slideshow {
+    list-style: none;
+    color: #fff;
+    display: none;
+}
+
+#slideshow span {
+    display: none
+}
+
+div#wrapper {
+    width: 506px;
+    /*background-color: white;*/
+    margin: 50px auto;
+    display: block;
+}
+
+div#wrapper * {
+    margin: 0;
+    padding: 0
+}
+
+div#fullsize {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    /*border: 1px solid #ccc;*/
+    background: white;
+}
+
+div#fullsize div#image {
+    width: 500px;
+    background-color: white;
+}
+
+div#fullsize div#image img {
+    position: absolute;
+    z-index: 25;
+    width: auto;
+    left: 0;
+    background-color: white;
+}
+
+div#thumbnails {
+    margin-top: 15px
+}
+
+div#slideleft {
+    float: left;
+    width: 20px;
+    height: 81px;
+    background: url(test/images/scroll-left.gif) center center no-repeat;
+    /*background-color: #222*/
+}
+
+div#slideleft:hover {
+    /*background-color: #333*/
+}
+
+div#slideright {
+    float: right;
+    width: 20px;
+    height: 81px;
+    background: url(test/images/scroll-right.gif) center center no-repeat
+    /*background-color: #222*/
+}
+
+div#slideright:hover {
+    /*background-color: #333*/
+}
+
+div#slidearea {
+    float: left;
+    position: relative;
+    width: 456px;
+    margin-left: 5px;
+    height: 81px;
+    overflow: hidden
+}
+
+div#slider {
+    position: absolute;
+    left: 0;
+    height: 81px
+}
+
+div#slider img {
+    cursor: pointer;
+    border: 1px solid #666;
+    padding: 2px
+}
