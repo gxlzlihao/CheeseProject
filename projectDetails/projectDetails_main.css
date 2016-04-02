@@ -199,3 +199,195 @@ div#top div#top_description div#top_registration_share img{
 div#top div#top_description div#top_registration_share img:first-of-type{
     margin-left: 20px;
 }
+
+/* The layout setup for the introduction panel */
+div#introduction{
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+div#introduction>div#introduction_options{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1104px;
+    height: 70px;
+    text-align: left;
+    border-bottom: 4px solid #e0e0e0;
+}
+div#introduction>div#introduction_options div.bar_option{
+    position: relative;
+    display: inline-block;
+    width: 164px;
+    height: 70px;
+    margin: 0;
+    text-align: center;
+    /*border-bottom: 4px solid #e0e0e0;*/
+    cursor: pointer;
+}
+div#introduction>div#introduction_options div.bar_option span{
+    font-size: 17px;
+    letter-spacing: 1px;
+    position: relative;
+    display: block;
+    margin: auto;
+    color: #a3a3a3;
+    top: 27px;
+}
+div#introduction>div#introduction_options div.bar_option.active{
+    border-bottom: 4px solid #faac46;
+    cursor: pointer;
+}
+div#introduction>div#introduction_options div.bar_option.active span{
+    font-size: 17px;
+    letter-spacing: 1px;
+    position: relative;
+    display: block;
+    margin: auto;
+    color: #3a3a3a;
+    top: 27px;
+}
+
+div#introduction_fragments{
+    position: relative;
+    display: block;
+}
+div#introduction_fragments div.fragment{
+    position: relative;
+    display: none;
+}
+div#introduction_fragments div.fragment.active{
+    display:block
+}
+div#introduction_fragments div.fragment div.section{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1104px;
+}
+div#introduction_fragments div.fragment div.section h1{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    padding-left: 13px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 13px;
+    border-left: 4px solid #f25555;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: left;
+}
+div#introduction_fragments div.fragment div.section p{
+    position: relative;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 30px;
+}
+div#introduction_fragments div.fragment div#highlights{
+    position: relative;
+    display: block;
+    text-align: left;
+}
+div#introduction_fragments div.fragment div.highlight{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-bottom: 0;
+    width: 250px;
+    height: 300px;
+    vertical-align: middle;
+}
+div#introduction_fragments div.fragment div.highlight img{
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 300px;
+}
+div#introduction_fragments div.fragment div.highlight p{
+    display: block;
+    position: absolute;
+    top: 210px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    letter-spacing: 1px;
+}
+div#introduction_fragments div.fragment div.highlight:first-of-type{
+    margin-left: 2px;
+}
+div#introduction_fragments div.fragment div.section div#host_icons{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+div#introduction_fragments div.fragment div.section div#host_icons img{
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+div#introduction_fragments div.fragment div.wide_section{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    /* TODO: finish */
+}
+div#introduction_fragments div.fragment div.wide_section img#immediate_registration_seperate_bar{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+    margin-bottom: 0;
+    width: 1104px;
+}
+div#introduction_fragments div.fragment div.wide_section button{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    width: 180px;
+    background-color: #faac46;
+    cursor: pointer;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+div#introduction_fragments div.fragment div.wide_section button span{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+div#introduction_fragments div.fragment div.wide_section button:hover{
+    background-color: #eda342;
+    cursor: pointer;
+}
