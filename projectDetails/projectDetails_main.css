@@ -80,3 +80,122 @@ div#top div#top_description{
     right: 42px;
     background-color: #f2f6f7;
 }
+div#top div#top_description h2:first-child{
+    font-size: 30px;
+    letter-spacing: 2px;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    color: #3a3a3a;
+}
+div#top div#top_description p{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #666666;
+}
+div#top div#top_description h4:first-of-type{
+    position: relative;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #a3a3a3;
+    font-size: 12px;
+}
+div#top div#top_description h4:nth-of-type(2){
+    position: relative;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #a3a3a3;
+    font-size: 12px;
+}
+div#top div#top_description h3:first-of-type{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+div#top div#top_description h3:nth-of-type(2){
+    position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+div#top div#top_description div#top_registration_share{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+}
+div#top div#top_description div#top_registration_share button{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 180px;
+    background-color: #f25555;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+div#top div#top_description div#top_registration_share button:hover{
+    background-color: #e65151;
+}
+div#top div#top_description div#top_registration_share h4{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-right: 0;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #666666;
+}
+div#top div#top_description div#top_registration_share img{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+div#top div#top_description div#top_registration_share img:first-of-type{
+    margin-left: 20px;
+}
