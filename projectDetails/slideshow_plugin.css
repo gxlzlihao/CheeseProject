@@ -10,9 +10,16 @@ ul#slideshow {
 
 div#wrapper {
     width: 506px;
-    /*background-color: white;*/
-    margin: 50px auto;
+    background-color: white;
+    margin: 0;
     display: block;
+    position: absolute;
+    left: 42px;
+    top: 40px;
+    bottom: 60px;
+    margin-right: 20px;
+    width: 500px;
+    height: 450px;
 }
 
 div#wrapper * {
@@ -21,34 +28,50 @@ div#wrapper * {
 }
 
 div#fullsize {
-    position: relative;
-    width: 500px;
-    height: 300px;
+    position: absolute;
+    width: 470px;
+    height: 345px;
+    top: 15px;
+    left: 15px;
+    right: 15px;
     /*border: 1px solid #ccc;*/
     background: white;
 }
 
 div#fullsize div#image {
-    width: 500px;
+    width: 470px;
+    height: 345px;
     background-color: white;
 }
 
 div#fullsize div#image img {
     position: absolute;
     z-index: 25;
-    width: auto;
+    width: 470px;
+    height: 345px;
     left: 0;
+    top: 0;
     background-color: white;
 }
 
 div#thumbnails {
-    margin-top: 15px
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 90px;
+    background-color: white;
 }
 
 div#slideleft {
-    float: left;
-    width: 20px;
-    height: 81px;
+    /*float: left;*/
+    position: absolute;
+    margin: 0;
+    width: 30px;
+    height: 90px;
+    left: 30px;
+    top: 0;
     background: url(test/images/scroll-left.gif) center center no-repeat;
     /*background-color: #222*/
 }
@@ -58,9 +81,13 @@ div#slideleft:hover {
 }
 
 div#slideright {
-    float: right;
-    width: 20px;
-    height: 81px;
+    /*float: right;*/
+    position: absolute;
+    margin: 0;
+    width: 30px;
+    height: 90px;
+    right: 30px;
+    top: 0;
     background: url(test/images/scroll-right.gif) center center no-repeat
     /*background-color: #222*/
 }
@@ -70,22 +97,30 @@ div#slideright:hover {
 }
 
 div#slidearea {
-    float: left;
-    position: relative;
-    width: 456px;
-    margin-left: 5px;
-    height: 81px;
+    /*float: left;*/
+    position: absolute;
+    width: 370px;
+    /*margin-left: 5px;*/
+    height: 90px;
+    left: 65px;
+    right: 65px;
     overflow: hidden
 }
 
 div#slider {
     position: absolute;
     left: 0;
-    height: 81px
+    height: 90px
 }
 
 div#slider img {
     cursor: pointer;
     border: 1px solid #666;
-    padding: 2px
+    padding: 2px;
+    width: 80px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }

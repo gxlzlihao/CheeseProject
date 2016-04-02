@@ -59,3 +59,24 @@ div#top{
     border-top: 20px solid #faac46;
     background-color: #f2f6f7;
 }
+div.content{
+    margin: 0 auto;
+    position: relative;
+    text-align: middle;
+    width: 1104px;
+    background-color: #f2f6f7;
+}
+div#top>div.content{
+    height: 550px;
+}
+div#top div#top_description{
+    position: absolute;
+    display: block;
+    margin: 0;
+    width: 500px;
+    height: 450px;
+    top: 40px;
+    bottom: 60px;
+    right: 42px;
+    background-color: #f2f6f7;
+}
