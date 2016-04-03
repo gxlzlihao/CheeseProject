@@ -49,7 +49,8 @@ blockquote, q {
 
 body{
     text-align:center;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 div#top{
     position: relative;
@@ -349,13 +350,105 @@ div#introduction_fragments div.fragment div.section div#host_icons img{
     display: inline-block;
     margin: 0 20px;
 }
+/* layout for the highlight moments browser */
 div#introduction_fragments div.fragment div.wide_section{
     position: relative;
     display: block;
     margin: 0 auto;
-    /* TODO: finish */
+    width: 1104px;
 }
-div#introduction_fragments div.fragment div.wide_section img#immediate_registration_seperate_bar{
+div#introduction_fragments div.fragment div.wide_section#highlight_moments ul#highlight_alternatives{
+    display: none;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser{
+    position: relative;
+    display: block;
+    width: 1104px;
+    height: 370px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window{
+    width: 495px;
+    height: 370px;
+    z-index: 2;
+    opacity: 1;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.guide{
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+    opacity: 1;
+    top: 155px;
+    cursor: pointer;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.prepare_left{
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    opacity: 0;
+    left: -468px;
+    right: 1077px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.prepare_right{
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    opacity: 0;
+    right: -468px;
+    left: 1077px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.ready_left{
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    opacity: 0.5;
+    left: -468px;
+    right: 1077px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.ready_right{
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    opacity: 0.5;
+    right: -468px;
+    left: 1077px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.focus_left{
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    opacity: 1;
+    left: 47px;
+    right: 562px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.focus_right{
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    opacity: 1;
+    right: 47px;
+    left: 562px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.guide#left_guide{
+    left: -93px;
+    right: 1137px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.guide#right_guide{
+    right: -93px;
+    left: 1137px;
+}
+/* end of the highlight moments browser */
+div#introduction_fragments div.fragment div#end img#immediate_registration_seperate_bar{
     position: relative;
     display: block;
     margin-left: auto;
@@ -364,7 +457,7 @@ div#introduction_fragments div.fragment div.wide_section img#immediate_registrat
     margin-bottom: 0;
     width: 1104px;
 }
-div#introduction_fragments div.fragment div.wide_section button{
+div#introduction_fragments div.fragment div#end button{
     position: relative;
     display: block;
     margin-top: 40px;
@@ -379,7 +472,7 @@ div#introduction_fragments div.fragment div.wide_section button{
     -moz-border-radius: 30px;
     border-radius: 30px;
 }
-div#introduction_fragments div.fragment div.wide_section button span{
+div#introduction_fragments div.fragment div#end button span{
     position: relative;
     display: block;
     color: white;
@@ -387,7 +480,7 @@ div#introduction_fragments div.fragment div.wide_section button span{
     font-weight: bold;
     letter-spacing: 1px;
 }
-div#introduction_fragments div.fragment div.wide_section button:hover{
+div#introduction_fragments div.fragment div#end button:hover{
     background-color: #eda342;
     cursor: pointer;
 }
