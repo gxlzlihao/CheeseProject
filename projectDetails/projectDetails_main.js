@@ -20,4 +20,15 @@ $(document).ready(function(){
         });
     });
 
+    var image_hover_in_callback = function() {
+        // when the mouse move inside the image
+    }
+
+    var image_hover_out_callback = function() {
+        // when the mosue move outside the image
+    }
+
+    $('img.background-image').hover( image_hover_in_callback, image_hover_out_callback );
+    $('img.top-image').hover( image_hover_in_callback, image_hover_out_callback );
+
 });
