@@ -662,6 +662,7 @@ div#registration div#registration_button button{
     -moz-border-radius: 30px;
     border-radius: 30px;
     background-color: #faac46;
+    cursor: pointer;
 }
 div#registration div#registration_button button span{
     color: white;
