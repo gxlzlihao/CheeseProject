@@ -35,6 +35,12 @@
         <image id="showup_right_arrow" src="passedEvents/right.png" alt="passedEvents/right.png"></image>
     </div>
 
+    <div class="showup_video">
+        <video id="video_player" class="video-js vjs-default-skin" autoplay="autoplay" controls preload="auto" width="640" height="400" poster="passedEvents/internship5.png" data-setup="{}">
+            <source src=""  type=""/>
+        </video>
+    </div>
+
     <div class="content">
         <image class="title" src="passedEvents/internship_title.png" alt="passedEvents/internship_title.png"></image>
         <div class="picture_group">
@@ -83,12 +89,15 @@
                     </div>
                 </div>
             </div>
-            <div class="show_item picture">
+            <div class="show_item video">
                 <image src="passedEvents/internship1.png" alt="passedEvents/internship1.png"></image>
+                <image class="play_button" src="passedEvents/video_post_icon.png" alt="passedEvents/video_post_icon.png"></image>
+                <span class="video_source">http://vjs.zencdn.net/v/oceans.mp4</span>
+                <span class="video_type">video/mp4</span>
                 <div class="image_bottom_cover">
                     <div class="image_item_cover">
                         <p>地火在地下运行,奔突;熔岩一旦喷出,将烧尽一切野草,以及乔木,于是将无可腐朽.</p>
-                        <button>CHECK</button>
+                        <image src="passedEvents/video_play_icon.png" alt="passedEvents/video_play_icon.png"></image>
                     </div>
                 </div>
             </div>
@@ -237,6 +246,12 @@
         <image class="title" src="passedEvents/volunteer_title.png" alt="passedEvents/volunteer_title.png"></image>
         <div class="picture_group"></div>
     </div>
+
+    <style type="text/css">
+        .vjs-big-play-button{
+            display: none;
+        }
+    </style>
 
 </body>
 </html>

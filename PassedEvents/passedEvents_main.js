@@ -168,9 +168,8 @@ $(document).ready(function(){
         $(this).children('div.image_bottom_cover').css({'display':'block'}).animate({'opacity':'0.9'},'slow');
     };
 
-    $('div.show_item.picture').mouseenter( mouseenter_callback );
-    $('div.show_item.picture').mouseleave( function(){
-        console.log( "img mouse out" );
+    $('div.show_item').mouseenter( mouseenter_callback );
+    $('div.show_item').mouseleave( function(){
         $(this).children('div.image_bottom_cover').stop().animate( {'opacity':'0'}, 'slow', 'linear', function(){
             $(this).css({'display':'none'});
         } );
@@ -232,9 +231,41 @@ $(document).ready(function(){
 
     });
 
+    $('div.show_item.video').click(function(){
+        var video_source = $(this).children('span.video_source').text();
+        var video_type = $(this).children('span.video_type').text();
+        console.log( video_source + ' - ' + video_type );
+
+        $('div.showup_video').css( { 'position':'absolute', 'top': $(document).scrollTop() + 100, 'left': ( $(document).width() - 640 ) / 2 } );
+
+        $('div#top_picture').animate( {'opacity':'0.25'}, 'slow' );
+        $('div.content').each(function(){
+            $(this).animate( {'opacity':'0.25'}, 'slow' );
+        });
+        var document_height = $(document).height();
+        var document_width = $(document).width();
+        $('div#cover').css({'display':'block', 'width':document_width, 'height':document_height});
+
+        $('div.showup_video').css({'display':'block'}).animate( {'opacity':'1'}, 'slow', 'linear', function() {
+        //    start playing the video
+            var _video = $("video#video_player");
+            $('video#video_player').children('source').attr( 'src', video_source );
+            $('video#video_player').children('source').attr( 'type', video_type );
+            _video.load();
+            // _video.play();
+
+        } );
+    });
+
     var resume_callback = function(){
 
-        $('div.showup_area').animate( {'opacity':'0'}, 'slow', 'linear', function(){ $('div.showup_area').css({'display':'none'}) } );
+        if ( $('div.showup_area').css('display') == 'block' )
+            $('div.showup_area').animate( {'opacity':'0'}, 'slow', 'linear', function(){ $('div.showup_area').css({'display':'none'}) } );
+        else if ( $('div.showup_video').css('display') == 'block' ) {
+            var _video = $("video#video_player");
+            document.getElementById('video_player').pause();
+            $('div.showup_video').animate( {'opacity':'0'}, 'slow', 'linear', function(){ $('div.showup_video').css({'display':'none'}) } );
+        }
         $('div#top_picture').animate( {'opacity':'1'}, 'slow' );
         $('div.content').each(function(){
             $(this).animate( {'opacity':'1'}, 'slow' );

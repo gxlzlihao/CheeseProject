@@ -217,6 +217,31 @@ div.picture_group>div.show_item:nth-child(6){
     height: 200px;
     margin: 0;
 }
+div.picture_group>div.show_item.video div.image_bottom_cover div.image_item_cover img{
+    position: absolute;
+    margin: 0;
+    cursor: pointer;
+    top: 116px;
+    left: 132px;
+    width: 35px;
+    height: 36px;
+}
+div.picture_group>div.show_item.video>img.play_button{
+    position: absolute;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+}
+div.picture_group>div.show_item.video>span.video_source{
+    display: none;
+}
+div.picture_group>div.show_item.video>span.video_type{
+    display: none;
+}
 /* end of set up */
 
 div#cover{
@@ -324,5 +349,16 @@ div.showup_area>img#showup_right_arrow{
     left: 1200px;
     display: block;
     cursor: pointer
+}
+
+div.showup_video{
+    position: absolute;
+    display: none;
+    margin: 0 auto;
+    width: 640px;
+    height: 400px;
+    z-index: 100;
+    top: 0;
+    opacity: 100;
 }
 /* the end of the layout setup */
