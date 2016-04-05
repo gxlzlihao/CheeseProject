@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e0f154-8b63-40f1-a170-99aca8056d3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectDetails/projectDetails_main.css" afterPath="$PROJECT_DIR$/projectDetails/projectDetails_main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PassedEvents.html" afterPath="$PROJECT_DIR$/PassedEvents.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PassedEvents/passedEvents_main.css" afterPath="$PROJECT_DIR$/PassedEvents/passedEvents_main.css" />
     </list>
     <list id="5f1e4de3-ed4a-4d07-97ae-937817c7e1e8" name="New changelist" comment="New changelist" />
     <ignored path="CheeseWebsite.iws" />
@@ -24,31 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projectDetails.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectDetails.html">
+      <file leaf-file-name="PassedEvents.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PassedEvents.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-750">
-              <caret line="156" column="83" selection-start-line="156" selection-start-column="83" selection-end-line="156" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projectDetails_main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="664" column="19" selection-start-line="664" selection-start-column="19" selection-end-line="664" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projectDetails_main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="99" column="75" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="75" />
+            <state relative-caret-position="689">
+              <caret line="231" column="18" selection-start-line="231" selection-start-column="18" selection-end-line="231" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -57,8 +39,28 @@
       <file leaf-file-name="passedEvents_main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="125" column="47" selection-start-line="125" selection-start-column="47" selection-end-line="125" selection-end-column="47" />
+            <state relative-caret-position="158">
+              <caret line="202" column="71" selection-start-line="202" selection-start-column="71" selection-end-line="202" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projectDetails_main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="passedEvents_main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1935">
+              <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -86,14 +88,14 @@
         <option value="$PROJECT_DIR$/aboutUs/aboutUs_main.js" />
         <option value="$PROJECT_DIR$/PassedEvents/passedEvents_main.js" />
         <option value="$PROJECT_DIR$/PassedEvents/passedEvents_main.css" />
-        <option value="$PROJECT_DIR$/PassedEvents.html" />
-        <option value="$PROJECT_DIR$/passedEvents/passedEvents_main.css" />
-        <option value="$PROJECT_DIR$/passedEvents/passedEvents_main.js" />
         <option value="$PROJECT_DIR$/projectDetails/slideshow_plugin.js" />
         <option value="$PROJECT_DIR$/projectDetails/slideshow_plugin.css" />
         <option value="$PROJECT_DIR$/projectDetails.html" />
         <option value="$PROJECT_DIR$/projectDetails/projectDetails_main.js" />
         <option value="$PROJECT_DIR$/projectDetails/projectDetails_main.css" />
+        <option value="$PROJECT_DIR$/passedEvents/passedEvents_main.css" />
+        <option value="$PROJECT_DIR$/passedEvents/passedEvents_main.js" />
+        <option value="$PROJECT_DIR$/PassedEvents.html" />
       </list>
     </option>
   </component>
@@ -103,9 +105,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="818" />
+    <option name="x" value="1440" />
+    <option name="y" value="-40" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -132,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,68 +177,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectDetails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectDetails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectDetails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="passedEvents" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -244,6 +184,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +201,7 @@
       <recent name="$PROJECT_DIR$/projectDetails/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.projectDetails.html">
+  <component name="RunManager" selected="JavaScript Debug.PassedEvents.html">
     <configuration default="false" name="AboutUs.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CheeseWebsite/AboutUs.html">
       <method />
     </configuration>
@@ -330,8 +271,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.projectDetails.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.PassedEvents.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.PassedEvents.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.projectDetails.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.AboutUs.html" />
       </list>
     </recent_temporary>
@@ -361,7 +302,10 @@
       <workItem from="1459478126087" duration="14329000" />
       <workItem from="1459570888107" duration="19397000" />
       <workItem from="1459653038519" duration="18344000" />
-      <workItem from="1459680394707" duration="11671000" />
+      <workItem from="1459680394707" duration="12045000" />
+      <workItem from="1459740020734" duration="16929000" />
+      <workItem from="1459828654831" duration="499000" />
+      <workItem from="1459852865391" duration="3340000" />
     </task>
     <task id="LOCAL-00001" summary="Add programs for passedEvents page">
       <created>1459308961897</created>
@@ -388,13 +332,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126343000" />
+    <option name="totallyTimeSpent" value="147485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="818" extended-state="6" />
+    <frame x="1440" y="-40" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23055555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19761905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -540,25 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PassedEvents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projectDetails/slideshow_plugin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1335">
           <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,34 +638,48 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.js">
+    <entry file="file://$PROJECT_DIR$/projectDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="125" column="47" selection-start-line="125" selection-start-column="47" selection-end-line="125" selection-end-column="47" />
+        <state relative-caret-position="360">
+          <caret line="256" column="26" selection-start-line="256" selection-start-column="26" selection-end-line="256" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="826" column="4" selection-start-line="826" selection-start-column="4" selection-end-line="828" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="99" column="75" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="75" />
+        <state relative-caret-position="825">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails.html">
+    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
-          <caret line="156" column="83" selection-start-line="156" selection-start-column="83" selection-end-line="156" selection-end-column="83" />
+        <state relative-caret-position="158">
+          <caret line="202" column="71" selection-start-line="202" selection-start-column="71" selection-end-line="202" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.css">
+    <entry file="file://$PROJECT_DIR$/PassedEvents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="664" column="19" selection-start-line="664" selection-start-column="19" selection-end-line="664" selection-end-column="19" />
+        <state relative-caret-position="689">
+          <caret line="231" column="18" selection-start-line="231" selection-start-column="18" selection-end-line="231" selection-end-column="18" />
           <folding />
         </state>
       </provider>

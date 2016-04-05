@@ -9,18 +9,18 @@ $(document).ready(function(){
 
     // set up the layout of the picture group
     $('div.picture_group').each(function(){
-        var image_number = $(this).children('img').length;
-        if ( image_number == 0 )
+        var item_number = $(this).children('div.show_item').length;
+        if ( item_number == 0 )
             $(this).height(0);
-        else if ( image_number > 0 && image_number <= 3 )
+        else if ( item_number > 0 && item_number <= 3 )
             $(this).height(400);
-        else if ( image_number > 3 && image_number <= 6 )
+        else if ( item_number > 3 && item_number <= 6 )
             $(this).height(600);
         else {
-            var more_lines = ( image_number - 6 ) / 3;
+            var more_lines = Math.ceil( ( item_number - 6 ) / 3 );
             $(this).height( 600 + more_lines * 200 );
             var iter = 0;
-            $(this).children('img.picture').each(function(){
+            $(this).children('div.show_item').each(function(){
                 ++iter;
                 if ( iter > 6 ) {
                     var new_left = ( iter - 6 ) % 3 > 0  ? ( ( iter - 6 ) % 3 - 1 ) * 320 : 640;
@@ -163,15 +163,18 @@ $(document).ready(function(){
     // end of the animation setup
 
     // set up the hover into and outside animation of the picture
-    $('img.picture').hover(function(){
+    var mouseenter_callback = function(){
         // when the mouse hover into the area
-        // console.log("the mouse has entered the area");
-        // $(this).animate({'width':'150%', 'height':'150%'}, 'slow');
-    }, function(){
-        // when the mouse hover outside the area
-        // console.log("the mouse has left the area");
-        // $(this).animate({'width':'100%', 'height':'100%'}, 'slow');
-    });
+        $(this).children('div.image_bottom_cover').css({'display':'block'}).animate({'opacity':'0.9'},'slow');
+    };
+
+    $('div.show_item.picture').mouseenter( mouseenter_callback );
+    $('div.show_item.picture').mouseleave( function(){
+        console.log( "img mouse out" );
+        $(this).children('div.image_bottom_cover').stop().animate( {'opacity':'0'}, 'slow', 'linear', function(){
+            $(this).css({'display':'none'});
+        } );
+    } );
 
     // set up the picture click animation
     function setup_picture_image( node_name, picture_source ) {
@@ -183,12 +186,12 @@ $(document).ready(function(){
             $( node_name ).css( {'display':'block'} );
     }
 
-    $('img.picture').click(function(){
+    $('div.show_item.picture').click(function(){
 
         picture_array = new Array();
 
-        $(this).parent().children('img.picture').each(function() {
-            picture_array.push( $(this).attr('src') );
+        $(this).parent().children('div.show_item.picture').each(function() {
+            picture_array.push( $(this).children('img').attr('src') );
         });
 
         target_picture = $(this).index();
@@ -216,8 +219,7 @@ $(document).ready(function(){
         else
             setup_picture_image( 'img.showup_prepare_right', null );
 
-        var top_offset = $(this).parent().parent().offset().top + 100;
-        $('div.showup_area').css( {'top': top_offset} );
+        $('div.showup_area').css( { 'position':'absolute', 'top': $(document).scrollTop() + 100 } );
         $('div.showup_area').css({'display':'block'}).animate( {'opacity':'1'}, 'slow' );
 
         $('div#top_picture').animate( {'opacity':'0.25'}, 'slow' );

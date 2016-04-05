@@ -76,8 +76,9 @@ div.content{
 img.title{
     margin: 0;
     position: relative;
-    top: 0;
-    left: 0;
+    /*top: 0;*/
+    /*left: 0;*/
+    width: 1104px;
 }
 div.picture_group{
     position: relative;
@@ -89,10 +90,7 @@ div.picture_group{
 }
 
 /* set up for the pictures inside the images group*/
-div.picture_group>img.picture:hover{
-    cursor: pointer;
-}
-div.picture_group>img.picture:first-child{
+div.picture_group>div.show_item:first-child{
     position: absolute;
     top: 0;
     left: 0;
@@ -101,7 +99,85 @@ div.picture_group>img.picture:first-child{
     margin: 0;
     overflow: visible;
 }
-div.picture_group>img.picture:nth-child(2){
+div.picture_group>div.show_item>img{
+    position: relative;
+    margin: 0;
+    width: 320px;
+    height: 200px;
+    cursor: pointer;
+}
+div.picture_group>div.show_item>div.image_bottom_cover{
+    position: absolute;
+    display: none;
+    margin: 0;
+    width: 310px;
+    height: 190px;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid white;
+    /*opacity: 0.9;*/
+    opacity: 0;
+    z-index: 30;
+}
+div.picture_group>div.show_item:first-child>div.image_bottom_cover{
+    top: 105px;
+    left: 165px;
+}
+div.picture_group>div.show_item>div.image_bottom_cover>div.image_item_cover{
+    position: absolute;
+    display: block;
+    margin: 0;
+    width: 300px;
+    height: 180px;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+    opacity: 0.9;
+    /*opacity: 0;*/
+    background-color: white;
+}
+div.picture_group>div.show_item>div.image_bottom_cover>div.image_item_cover p{
+    position: absolute;
+    margin: 0;
+    width: 200px;
+    top: 40px;
+    left: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+div.picture_group>div.show_item>div.image_bottom_cover>div.image_item_cover button{
+    position: absolute;
+    margin: 0;
+    width: 80px;
+    height: 30px;
+    background-color: rgba(0,0,0,0);
+    color: #f25555;
+    border: 1px solid #f25555;
+    font-size: 12px;
+    font-weight: bold;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    left: 110px;
+    top: 116px;
+    cursor: pointer;
+}
+div.picture_group>div.show_item>div.image_bottom_cover>div.image_item_cover button:hover{
+    color: white;
+    background-color: #f25555;
+}
+div.picture_group>div.show_item:first-child img{
+    position: relative;
+    margin: 0;
+    width: 640px;
+    height: 400px;
+}
+div.picture_group>div.show_item:nth-child(2){
     position: absolute;
     top: 0;
     left: 640px;
@@ -109,7 +185,7 @@ div.picture_group>img.picture:nth-child(2){
     height: 200px;
     margin: 0;
 }
-div.picture_group>img.picture:nth-child(3){
+div.picture_group>div.show_item:nth-child(3){
     position: absolute;
     top: 200px;
     left: 640px;
@@ -117,7 +193,7 @@ div.picture_group>img.picture:nth-child(3){
     height: 200px;
     margin: 0;
 }
-div.picture_group>img.picture:nth-child(4){
+div.picture_group>div.show_item:nth-child(4){
     position: absolute;
     top: 400px;
     left: 0;
@@ -125,7 +201,7 @@ div.picture_group>img.picture:nth-child(4){
     height: 200px;
     margin: 0;
 }
-div.picture_group>img.picture:nth-child(5){
+div.picture_group>div.show_item:nth-child(5){
     position: absolute;
     top: 400px;
     left: 320px;
@@ -133,7 +209,7 @@ div.picture_group>img.picture:nth-child(5){
     height: 200px;
     margin: 0;
 }
-div.picture_group>img.picture:nth-child(6){
+div.picture_group>div.show_item:nth-child(6){
     position: absolute;
     top: 400px;
     left: 640px;
