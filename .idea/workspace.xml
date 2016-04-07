@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e0f154-8b63-40f1-a170-99aca8056d3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PassedEvents.html" afterPath="$PROJECT_DIR$/PassedEvents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/globalVolunteers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/travelStudies.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/travelStudies/travelStudies_main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/travelStudies/travelStudies_main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="5f1e4de3-ed4a-4d07-97ae-937817c7e1e8" name="New changelist" comment="New changelist" />
     <ignored path="CheeseWebsite.iws" />
@@ -24,31 +30,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PassedEvents.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PassedEvents.html">
+      <file leaf-file-name="globalVolunteers.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/globalVolunteers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+            <state relative-caret-position="2100">
+              <caret line="167" column="75" selection-start-line="167" selection-start-column="75" selection-end-line="167" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="passedEvents_main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.js">
+      <file leaf-file-name="globalVolunteers_main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="267" column="9" selection-start-line="267" selection-start-column="9" selection-end-line="267" selection-end-column="9" />
+            <state relative-caret-position="509">
+              <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="passedEvents_main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.css">
+      <file leaf-file-name="globalVolunteers_main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="355" column="18" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
+            <state relative-caret-position="495">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -84,6 +90,13 @@
         <option value="$PROJECT_DIR$/passedEvents/passedEvents_main.css" />
         <option value="$PROJECT_DIR$/PassedEvents.html" />
         <option value="$PROJECT_DIR$/passedEvents/passedEvents_main.js" />
+        <option value="$PROJECT_DIR$/travelStudies/travelStudies_main.js" />
+        <option value="$PROJECT_DIR$/travelStudies/travelStudies_main.css" />
+        <option value="$PROJECT_DIR$/travelStudies.html" />
+        <option value="$PROJECT_DIR$/globalVolunteer.html" />
+        <option value="$PROJECT_DIR$/globalVolunteers.html" />
+        <option value="$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.css" />
+        <option value="$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.js" />
       </list>
     </option>
   </component>
@@ -123,6 +136,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,6 +166,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="travelStudies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheeseProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheeseProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="projectDetails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -165,14 +194,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="passedEvents" />
+              <option name="myItemId" value="globalVolunteers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +207,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/TinySlideshow" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/template" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
@@ -189,7 +216,7 @@
       <recent name="$PROJECT_DIR$/projectDetails/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.AboutUs.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.travelStudies.html">
     <configuration default="false" name="AboutUs.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CheeseWebsite/AboutUs.html">
       <method />
     </configuration>
@@ -200,6 +227,9 @@
       <method />
     </configuration>
     <configuration default="false" name="AboutUs.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CheeseProject/AboutUs.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="travelStudies.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CheeseProject/travelStudies.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -255,18 +285,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AboutUs.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.PassedEvents.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.projectDetails.html" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.AboutUs.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.travelStudies.html" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AboutUs.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.PassedEvents.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.projectDetails.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.AboutUs.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.travelStudies.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AboutUs.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.PassedEvents.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.projectDetails.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.AboutUs.html" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +330,8 @@
       <workItem from="1459680394707" duration="12045000" />
       <workItem from="1459740020734" duration="16929000" />
       <workItem from="1459828654831" duration="499000" />
-      <workItem from="1459852865391" duration="10153000" />
+      <workItem from="1459852865391" duration="10986000" />
+      <workItem from="1460014202343" duration="26030000" />
     </task>
     <task id="LOCAL-00001" summary="Add programs for passedEvents page">
       <created>1459308961897</created>
@@ -325,7 +358,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154298000" />
+    <option name="totallyTimeSpent" value="181161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-40" width="1680" height="1050" extended-state="6" />
@@ -372,55 +405,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AboutUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutUs/aboutUs_main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PassedEvents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutUs/aboutUs_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2505">
-          <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AboutUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutUs/aboutUs_main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PassedEvents.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -631,46 +615,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="826" column="4" selection-start-line="826" selection-start-column="4" selection-end-line="828" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/passedEvents/video_post_icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.css">
+    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="355" column="18" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
+        <state relative-caret-position="518">
+          <caret line="271" column="11" selection-start-line="271" selection-start-column="11" selection-end-line="271" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PassedEvents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="19" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.js">
+    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="267" column="9" selection-start-line="267" selection-start-column="9" selection-end-line="267" selection-end-column="9" />
+        <state relative-caret-position="653">
+          <caret line="826" column="4" selection-start-line="826" selection-start-column="4" selection-end-line="828" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelStudies/travelStudies_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globalVolunteers/title_image1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelStudies/travelStudies_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="198" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelStudies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globalVolunteers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="167" column="75" selection-start-line="167" selection-start-column="75" selection-end-line="167" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding />
         </state>
       </provider>

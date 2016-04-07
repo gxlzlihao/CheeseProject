@@ -1,0 +1,214 @@
+/*reset of the css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+/*end of the reset*/
+
+body{
+    text-align:center;
+    overflow: scroll;
+}
+div.section{
+    position: relative;
+    display: block;
+    width: 1440px;
+    height: 680px;
+    margin: 0;
+    text-align: center;
+}
+div.section img.background_image{
+    position: absolute;
+    display: block;
+    width: 1440px;
+    height: 680px;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+div.section span.big_title{
+    position: relative;
+    display: block;
+    top: 140px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    margin: 0 auto;
+}
+div.section span.small_title{
+    position: relative;
+    display: block;
+    top: 180px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+div.section div.browser{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 400px;
+    width: 1330px;
+    height: 200px;
+    background-color: transparent;
+}
+div.section div.browser img.left_guide{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+div.section div.browser div.showup_area{
+    position : relative;
+    display: inline-block;
+    width: 1090px;
+    height: 200px;
+    vertical-align: middle;
+    margin: 0 15px;
+    background-color: transparent;
+    overflow-x: hidden;
+    text-align: center;
+}
+div.section div.browser div.showup_area div.showup_window{
+    position : relative;
+    display: block;
+    /*width: 1090px;*/
+    height: 200px;
+    margin: 0;
+    background-color: transparent;
+    text-align: left;
+}
+/*div.section div.browser div.showup_area div.showup_window ul li div.showup_item{*/
+div.showup_item{
+    position: relative;
+    display: block;
+    /*vertical-align: middle;*/
+    float: left;
+    width: 260px;
+    height: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 16px;
+    margin-left: 0;
+    background-color: white;
+}
+div.showup_item:last-of-type{
+    margin: 0;
+}
+div.showup_item img.item_image{
+    position: relative;
+    display: block;
+    width: 260px;
+    height: 146px;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+div.showup_item span.item_title{
+    position: relative;
+    display: block;
+    top: 13px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.showup_item div.bottom_bar{
+    position: relative;
+    display: block;
+    top: 25px;
+    text-align: center;
+    margin: 0 auto;
+    height: 1px;
+    width: 60px;
+    background-color: #f25555;
+}
+div.showup_item div.item_cover{
+    position: absolute;
+    display: none;
+    background-color: white;
+    opacity: 0;
+    width: 220px;
+    height: 106px;
+    margin: 0;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+div.showup_item div.item_cover button{
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    top: 45px;
+    border: 1px solid #f25555;
+    color: #f25555;
+    background: transparent;
+    font-size: 15px;
+    letter-spacing: 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+div.showup_item div.item_cover button:hover{
+    background-color: #e65151;
+    border-color: #e65151;
+    color: white;
+}
+div.section div.browser img.right_guide{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    vertical-align: middle;
+    cursor: pointer;
+}
