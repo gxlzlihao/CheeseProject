@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e0f154-8b63-40f1-a170-99aca8056d3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/globalVolunteers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/travelStudies.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/travelStudies/travelStudies_main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/travelStudies/travelStudies_main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scientificResearch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scientificResearch/scientificResearch_main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scientificResearch/scientificResearch_main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="5f1e4de3-ed4a-4d07-97ae-937817c7e1e8" name="New changelist" comment="New changelist" />
@@ -33,8 +30,28 @@
       <file leaf-file-name="globalVolunteers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/globalVolunteers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="167" column="75" selection-start-line="167" selection-start-column="75" selection-end-line="167" selection-end-column="75" />
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="19" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scientificResearch_main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scientificResearch_main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,11 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="globalVolunteers_main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="globalVolunteers_main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scientificResearch.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scientificResearch.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -97,6 +124,9 @@
         <option value="$PROJECT_DIR$/globalVolunteers.html" />
         <option value="$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.css" />
         <option value="$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.js" />
+        <option value="$PROJECT_DIR$/scientificResearch/scientificResearch_main.css" />
+        <option value="$PROJECT_DIR$/scientificResearch/scientificResearch_main.js" />
+        <option value="$PROJECT_DIR$/scientificResearch.html" />
       </list>
     </option>
   </component>
@@ -166,35 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="travelStudies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectDetails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="globalVolunteers" />
+              <option name="myItemId" value="scientificResearch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,7 +333,7 @@
       <workItem from="1459740020734" duration="16929000" />
       <workItem from="1459828654831" duration="499000" />
       <workItem from="1459852865391" duration="10986000" />
-      <workItem from="1460014202343" duration="26030000" />
+      <workItem from="1460014202343" duration="27031000" />
     </task>
     <task id="LOCAL-00001" summary="Add programs for passedEvents page">
       <created>1459308961897</created>
@@ -358,7 +360,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181161000" />
+    <option name="totallyTimeSpent" value="182162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-40" width="1680" height="1050" extended-state="6" />
@@ -405,27 +407,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PassedEvents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutUs/aboutUs_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2505">
-          <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AboutUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AboutUs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -697,18 +678,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/globalVolunteers.html">
+    <entry file="file://$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="167" column="75" selection-start-line="167" selection-start-column="75" selection-end-line="167" selection-end-column="75" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.js">
+    <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globalVolunteers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="19" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scientificResearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
           <folding />
         </state>
       </provider>
