@@ -1,0 +1,219 @@
+/*reset of the css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+/*end of the reset*/
+
+body{
+    text-align:center;
+    overflow: scroll;
+}
+div#top{
+    position: relative;
+    display: block;
+    width: 1440px;
+    height: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+div#top img{
+    position: relative;
+    display: block;
+    width: 1440px;
+    height: 320px;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+}
+div#main{
+    position: relative;
+    display: block;
+    width: 1440px;
+    margin: 0 auto;
+    overflow-y: hidden;
+    background-color: #f2f6f7;
+}
+div#main div.item{
+    position: relative;
+    display: block;
+    width: 720px;
+    height: 240px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    background-color: white;
+    -webkit-box-shadow: 3px 3px 10px grey;
+    box-shadow: 3px 3px 10px grey;
+}
+div#main div.item:first-child{
+    margin-top: 40px;
+}
+div#main div.item:last-of-type{
+    margin-bottom: 40px;
+}
+div#main div.item div.left{
+    position: absolute;
+    display: block;
+    width: 360px;
+    height: 240px;
+    background-color: white;
+    left: 0;
+    top: 0;
+    margin: 0;
+    z-index: 0;
+}
+div#main div.item div.left img{
+    position: absolute;
+    display: block;
+    width: 360px;
+    height: 240px;
+    z-index: 1;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+div#main div.item div.left div.square_border{
+    position: absolute;
+    display: block;
+    width: 340px;
+    height: 220px;
+    top: 10px;
+    left: 10px;
+    border: 1px solid white;
+    background: transparent;
+    z-index: 2;
+    margin: 0;
+}
+div#main div.item div.right{
+    position: absolute;
+    display: block;
+    width: 360px;
+    height: 240px;
+    background-color: white;
+    right: 0;
+    top: 0;
+    margin: 0;
+    z-index: 0;
+    text-align: left;
+}
+div#main div.item div.right span.big_title{
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 20px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+div#main div.item div.right div.seperation_bar{
+    position: absolute;
+    display: block;
+    top: 70px;
+    left: 20px;
+    width: 320px;
+    height: 2px;
+    background-color: #f25555;
+}
+div#main div.item div.right span.brief_description{
+    position: absolute;
+    display: block;
+    top: 90px;
+    left: 20px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+div#main div.item div.right div.location{
+    position: absolute;
+    display: block;
+    top: 120px;
+    left: 20px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+div#main div.item div.right div.time{
+    position: absolute;
+    display: block;
+    top: 145px;
+    left: 20px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+div#main div.item div.right button{
+    position: absolute;
+    display: block;
+    color: white;
+    background-color: #faac46;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+div#main div.item div.right button:hover{
+    background-color: #eda342;
+}
+div#main div.item div.right button.registration{
+    left: 20px;
+    top: 190px;
+}
+div#main div.item div.right button.know_more{
+    top: 190px;
+    left: 135px;
+}
+div#main span#loading{
+    position: relative;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
