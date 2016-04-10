@@ -119,18 +119,19 @@ div.section div.browser div.showup_area{
 div.section div.browser div.showup_area div.showup_window{
     position : relative;
     display: block;
-    /*width: 1090px;*/
+    /*width: 1640px;*/
     height: 200px;
     margin: 0;
     background-color: transparent;
     text-align: left;
+    left: 0px;
 }
 /*div.section div.browser div.showup_area div.showup_window ul li div.showup_item{*/
 div.showup_item{
     position: relative;
-    display: block;
-    /*vertical-align: middle;*/
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    /*float: left;*/
     width: 260px;
     height: 200px;
     margin-top: 0;
