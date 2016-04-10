@@ -125,6 +125,7 @@ div.section div.browser div.showup_area div.showup_window{
     background-color: transparent;
     text-align: left;
     left: 0px;
+    overflow-y: hidden;
 }
 /*div.section div.browser div.showup_area div.showup_window ul li div.showup_item{*/
 div.showup_item{

@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     $('div.showup_window').each(function(){
         var item_number = $(this).children('ul').children('li').children('div.showup_item').length;
-        $(this).css({ 'width': ( item_number * 276 - 16 ) + 'px' });
+        $(this).css({ 'width': ( item_number * 276 + 4 ) + 'px' });
         if ( item_number < 4 && item_number > 0 ) {
             $(this).css({'margin-left':'auto', 'margin-right':'auto'});
             $(this).parent().siblings('img.left_guide').css({'display':'none'});
@@ -31,7 +31,7 @@ $(document).ready(function(){
         var max_left_positive_value = item_number * 276 - 16 - 1090;
         var now_left_value = target_showup_window.css('left').replace('px','').replace('-','');
 
-        if ( parseInt( now_left_value ) < parseInt( max_left_positive_value ) - 276 ) {
+        if ( parseInt( now_left_value ) < parseInt( max_left_positive_value ) ) {
             target_showup_window.animate( {'left':'-' + ( parseInt(now_left_value) + 276) + 'px'}, 'slow' );
         }
 
