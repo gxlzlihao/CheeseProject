@@ -16,3 +16,185 @@ div#top img{
     height: 600px;
     marign: 0;
 }
+div#main{
+    position: relative;
+    display: block;
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #f2f6f7;
+    overflow-y: hidden;
+}
+div#main div.section{
+    position: relative;
+    display: block;
+    width: 1084px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+div#main div.section div.title{
+    position: relative;
+    display: block;
+    width: 1084px;
+    height: 70px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+div#main div.section div.title span.english_title{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #a3a3a3;
+    letter-spacing: 1px;
+    text-align: center;
+}
+div#main div.section div.title span.chinese_title{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+div#main div.section div.title div.shalow_color_seperation_bar{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    margin-bottom: 0;
+    width: 348px;
+    height: 3px;
+    background-color: #e0e0e0;
+}
+div#main div.section div.title div.deep_color_seperation_bar{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: -3px;
+    width: 112px;
+    height: 3px;
+    background-color: #f25555;
+}
+div#main div.section div.content{
+    position: relative;
+    display: block;
+    width: 1084px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+div#main div.section div.content div.item{
+    -webkit-box-shadow: 3px 3px 10px grey;
+    box-shadow: 3px 3px 10px grey;
+    text-align: center;
+}
+div#main div.section div.content div.item:first-child{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 348px;
+    margin: 0;
+}
+div#main div.section div.content div.item:nth-child(2){
+    position: absolute;
+    display: block;
+    height: 400px;
+    width: 348px;
+    margin: 0;
+    top: 0;
+    left: 368px;
+}
+div#main div.section div.content div.item:last-child{
+    position: absolute;
+    display: block;
+    height: 400px;
+    width: 348px;
+    margin: 0;
+    top: 0;
+    left: 736px;
+}
+div#main div.section div.content div.item img.item_image{
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 348px;
+    height: 240px;
+}
+div#main div.section div.content div.item span.item_title{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+div#main div.section div.content div.item div.item_seperation_bar{
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    height: 2px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f25555;
+}
+div#main div.section div.content div.item p.item_description{
+    position: relative;
+    display: block;
+    margin-top: 22px;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-bottom: 0;
+    color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+div#main div.section div.content div.item div.item_cover{
+    position: absolute;
+    /*display: block;*/
+    display: none;
+    z-index: 1;
+    width: 328px;
+    height: 220px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    /*opacity: 0.8;*/
+    opacity: 0;
+}
+div#main div.section div.content div.item div.item_cover button{
+    position: relative;
+    display: block;
+    top: 92px;
+    margin: 0 auto;
+    height: 35px;
+    width: 155px;
+    border: 2px solid #f25555;
+    background: transparent;
+    color: #f25555;
+    font-size: 13px;
+    font-weight: bold;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+div#main div.section div.content div.item div.item_cover button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #e65151;
+    border-color: #e65151;
+}

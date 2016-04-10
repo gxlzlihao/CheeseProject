@@ -166,6 +166,7 @@ div#main div.item div.right span.brief_description{
     left: 20px;
     font-size: 17px;
     font-weight: lighter;
+    color: #a3a3a3;
 }
 div#main div.item div.right div.location{
     position: absolute;
@@ -174,6 +175,7 @@ div#main div.item div.right div.location{
     left: 20px;
     font-size: 17px;
     font-weight: lighter;
+    color: #a3a3a3;
 }
 div#main div.item div.right div.time{
     position: absolute;
@@ -182,6 +184,7 @@ div#main div.item div.right div.time{
     left: 20px;
     font-size: 17px;
     font-weight: lighter;
+    color: #a3a3a3;
 }
 div#main div.item div.right button{
     position: absolute;
