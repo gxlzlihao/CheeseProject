@@ -2,17 +2,433 @@ body{
     text-align:center;
     overflow: scroll;
 }
+div#body_cover{
+    position: absolute;
+    display: none;
+    background: transparent;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
 div#top{
     position: relative;
     display: block;
     width: 1440px;
     height: 460px;
     marign: 0 auto;
+    text-align: center;
+    overflow-y: hidden;
 }
 div#top img.top_background{
-    position: relative;
+    position: absolute;
     display: block;
     width: 1440px;
     height: 460px;
     marign: 0;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+div#top h1.top_title{
+    position: relative;
+    display: block;
+    margin-top: 116px;
+    color: #eda342;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    z-index: 1;
+}
+div#top div.top_description{
+    position: relative;
+    display: block;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    z-index: 1;
+    height: 80px;
+    width: 820px;
+}
+div#top div.top_description p{
+    position: relative;
+    display: block;
+    margin: 0;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #666666;
+    line-height: 20px;
+}
+div#top div.top_procedure_steps{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+div#top div.top_procedure_steps div.step{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 40px;
+}
+div#top div.top_procedure_steps div.step img{
+    position: relative;
+    display: block;
+    width: 105px;
+    height: 105px;
+    margin: 0;
+}
+div#top div.top_procedure_steps div.step:last-of-type img{
+    width: 120px;
+}
+div#top div.top_procedure_steps div.step h2{
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    color: #eda342;
+    font-weight: bold;
+    margin: 0;
+}
+div#top div.top_procedure_steps div.step h2:first-of-type{
+    margin-top: 10px;
+}
+div#main_form{
+    position: relative;
+    display: block;
+    width: 1440px;
+    marign: 0 auto;
+    background-color: #f2f6f7;
+    text-align: center;
+    overflow-y: hidden;
+}
+div#main_form img.form_background{
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    height: 585px;
+    width: 940px;
+}
+div#main_form div.form_content{
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 250px;
+    width: 940px;
+    height: 585px;
+}
+div#main_form div.form_content img.form_title{
+    position: relative;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 720px;
+    height: 55px;
+}
+div#main_form div.form_content h2{
+    position: relative;
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    color: #faac46;
+    letter-spacing: 1px;
+}
+div#main_form div.form_content div.form_item{
+    position: relative;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    height: 40px;
+    text-align: left;
+}
+div#main_form div.form_content div.form_item:first-of-type{
+    margin-top: 30px;
+}
+div#main_form div.form_content div.form_item span{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: 190px;
+    text-align: left;
+    width: 80px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #666666;
+}
+div#main_form div.form_content div.form_item input{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    height: 40px;
+    width: 470px;
+    background-color: #fcc57e;
+    border: 1px solid #faac46;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    line-height: 40px;
+    font-size: 30px;
+    padding: 0 10px;
+    color: #666666;
+}
+div#main_form div.form_content h3.error_remind{
+    position: relative;
+    display: block;
+    line-height: 30px;
+    color: #e65151;
+    text-align: center;
+    opacity: 0;
+}
+div#main_form div.form_content div.form_item.project_item_chooser{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 40px;
+    width: 940px;
+}
+div#main_form div.form_content div.form_item.project_item_chooser>span{
+    width: 90px;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_chooser{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 36px;
+    width: 195px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 20px;
+    background-color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid #faac46;
+    cursor: pointer;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_chooser:hover{
+    background-color: #f2f6f7;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_chooser span.result{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #3a3a3a;
+    height: 28px;
+    width: 136px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 12px;
+    margin: 0;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_chooser img.arrow{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 10px;
+    width: 20px;
+    padding-right: 10px;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_chooser{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 36px;
+    width: 240px;
+    margin: 0;
+    background-color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid #faac46;
+    cursor: pointer;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_chooser:hover{
+    background-color: #f2f6f7;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_chooser span.result{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #3a3a3a;
+    height: 28px;
+    width: 181px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 12px;
+    margin: 0;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_chooser img.arrow{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 10px;
+    width: 20px;
+    padding-right: 10px;
+}
+div#main_form div.form_content div.form_item.submit_button{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    height: 40px;
+}
+div#main_form div.form_content div.form_item.submit_button button{
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 240px;
+    color: white;
+    background-color: #faac46;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+div#main_form div.form_content div.form_item.submit_button button:hover{
+    background-color: #eda342;
+}
+
+/* The layout of the small project item options */
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_options{
+    position: absolute;
+    display: none;
+    background-color: white;
+    height: 190px;
+    width: 195px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid #faac46;
+    overflow-y: scroll;
+    z-index: 5;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_options ul li{
+    position: relative;
+    display: block;
+    height: 38px;
+    width: 195px;
+    text-align: center;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_options ul li div.front_cover{
+    position: absolute;
+    display: block;
+    height: 36px;
+    width: 155px;
+    text-align: left;
+    background-color: white;
+    color: #3a3a3a;
+    margin: 0;
+    left: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    line-height: 36px;
+    cursor: pointer;
+    font-size: 15px;
+    z-index: 20;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_options ul li:last-child div.front_cover{
+    height: 38px;
+    border-bottom: none;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_options ul li div.background_cover{
+    position: absolute;
+    display: none;
+    width: 195px;
+    height: 36px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #f2f6f7;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_options ul li:hover div.background_cover{
+    display: block;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_small_item_options ul li:hover div.front_cover{
+    background-color: #f2f6f7;
+}
+
+/* The layout of the big project item options */
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_options{
+    position: absolute;
+    display: none;
+    background-color: white;
+    height: 190px;
+    width: 240px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid #faac46;
+    overflow-y: scroll;
+    z-index: 5;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_options ul li{
+    position: relative;
+    display: block;
+    height: 38px;
+    width: 240px;
+    text-align: center;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_options ul li div.front_cover{
+    position: absolute;
+    display: block;
+    height: 36px;
+    width: 200px;
+    text-align: left;
+    background-color: white;
+    color: #3a3a3a;
+    margin: 0;
+    left: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    line-height: 36px;
+    cursor: pointer;
+    font-size: 15px;
+    z-index: 20;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_options ul li:last-child div.front_cover{
+    height: 38px;
+    border-bottom: none;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_options ul li div.background_cover{
+    position: absolute;
+    display: none;
+    width: 240px;
+    height: 36px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #f2f6f7;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_options ul li:hover div.background_cover{
+    display: block;
+}
+div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_options ul li:hover div.front_cover{
+    background-color: #f2f6f7;
 }
