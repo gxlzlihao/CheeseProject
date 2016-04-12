@@ -432,3 +432,175 @@ div#main_form div.form_content div.form_item.project_item_chooser div.project_bi
 div#main_form div.form_content div.form_item.project_item_chooser div.project_big_item_options ul li:hover div.front_cover{
     background-color: #f2f6f7;
 }
+
+div#recommendation{
+    position: relative;
+    display: block;
+    width: 1440px;
+    background-color: #f2f6f7;
+}
+div#recommendation div.section{
+    position: relative;
+    display: block;
+    width: 1104px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: #f2f6f7;
+    overflow: hidden;
+}
+div#recommendation div.section img#recommendation_section_title{
+    position: relative;
+    display: block;
+    width: 1104px;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+div#recommendation div.section div#recommendation_items{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1104px;
+    text-align: center;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item{
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    background-color: #f2f6f7;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:first-of-type{
+    margin-left: 0;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item img.background-image{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 220px;
+    z-index: 1;
+    marign: 0;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item img.top-image{
+    position: absolute;
+    display: block;
+    width: 280px;
+    height: 210px;
+    margin: 0;
+    top: 80px;
+    left: 20px;
+    z-index: 2;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item span:first-of-type{
+    display: block;
+    position: absolute;
+    margin: 0;
+    width: 310px;
+    top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    z-index: 2;
+    text-align: left;
+    left: 20px;
+    text-overflow: ellipsis;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item span:last-of-type{
+    display: block;
+    position: absolute;
+    margin: 0;
+    width: 310px;
+    top: 47px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    z-index: 2;
+    text-align: left;
+    color: white;
+    left: 20px;
+    text-overflow: ellipsis;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(2) span{
+    left: 35px;
+    width: 295px
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(2) img.top-image{
+    left: 35px;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(3) span{
+    left: 50px;
+    width: 280px
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(3) img.top-image{
+    left: 50px;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item div.image-cover{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    margin: 0;
+    width: 250px;
+    height: 180px;
+    top: 95px;
+    left: 35px;
+    /*opacity: 0.8;*/
+    opacity: 0;
+    background-color: white;
+    cursor: pointer;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(2) div.image-cover{
+    left: 50px;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(3) div.image-cover{
+    left: 65px;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item div.image-cover p{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-indent: 35px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item div.image-cover button{
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    height: 35px;
+    width: 155px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid #f25555;
+    background-color: white;
+    opacity: 1;
+    color: #f25555;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item div.image-cover button:hover{
+    background-color: #f25555;
+    color: white;
+}

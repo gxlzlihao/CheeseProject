@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e0f154-8b63-40f1-a170-99aca8056d3c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation1_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation2_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation3_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/recommendation_section_title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/shining_moment_left.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registrationForm.html" afterPath="$PROJECT_DIR$/registrationForm.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registrationForm/registrationForm_main.css" afterPath="$PROJECT_DIR$/registrationForm/registrationForm_main.css" />
@@ -27,21 +35,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="registrationForm.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="registrationForm.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/registrationForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+            <state relative-caret-position="347">
+              <caret line="136" column="45" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registrationForm_main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="registrationForm_main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="662">
+              <caret line="605" column="1" selection-start-line="605" selection-start-column="1" selection-end-line="605" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registrationForm_main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="115" column="75" selection-start-line="115" selection-start-column="75" selection-end-line="115" selection-end-column="75" />
+            <state relative-caret-position="686">
+              <caret line="160" column="42" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -91,8 +109,8 @@
         <option value="$PROJECT_DIR$/scientificResearch/scientificResearch_main.js" />
         <option value="$PROJECT_DIR$/scientificResearch/scientificResearch_main.css" />
         <option value="$PROJECT_DIR$/scientificResearch.html" />
-        <option value="$PROJECT_DIR$/registrationForm/registrationForm_main.css" />
         <option value="$PROJECT_DIR$/registrationForm.html" />
+        <option value="$PROJECT_DIR$/registrationForm/registrationForm_main.css" />
         <option value="$PROJECT_DIR$/registrationForm/registrationForm_main.js" />
       </list>
     </option>
@@ -189,6 +207,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="projectDetails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheeseProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheeseProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -208,6 +240,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/registrationForm" />
       <recent name="$PROJECT_DIR$/projectDetails" />
       <recent name="$PROJECT_DIR$/projectDetails/test" />
     </key>
@@ -334,7 +367,7 @@
       <workItem from="1460265994489" duration="2826000" />
       <workItem from="1460269412883" duration="8718000" />
       <workItem from="1460300896493" duration="890000" />
-      <workItem from="1460370187752" duration="18818000" />
+      <workItem from="1460370187752" duration="19569000" />
     </task>
     <task id="LOCAL-00001" summary="Add programs for passedEvents page">
       <created>1459308961897</created>
@@ -361,13 +394,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221818000" />
+    <option name="totallyTimeSpent" value="222569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="813" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -517,20 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="826" column="4" selection-start-line="826" selection-start-column="4" selection-end-line="828" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/globalVolunteers/title_image1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -585,13 +604,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travelStudies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
@@ -687,26 +699,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.css">
+    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="380" column="17" selection-start-line="380" selection-start-column="17" selection-end-line="380" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registrationForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="676" column="0" selection-start-line="676" selection-start-column="0" selection-end-line="840" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="115" column="75" selection-start-line="115" selection-start-column="75" selection-end-line="115" selection-end-column="75" />
+        <state relative-caret-position="686">
+          <caret line="160" column="42" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="46" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="236" column="8" selection-start-line="236" selection-start-column="8" selection-end-line="270" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="605" column="1" selection-start-line="605" selection-start-column="1" selection-end-line="605" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="136" column="45" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
           <folding />
         </state>
       </provider>
