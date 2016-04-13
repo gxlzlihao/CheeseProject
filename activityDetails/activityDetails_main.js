@@ -138,4 +138,21 @@ $(document).ready(function(){
     $('img#left_guide').click( left_guide_callback );
     $('img#right_guide').click( right_guide_callback );
 
+    $('span#bigger_map').click(function(){
+
+        var document_width = $(document).width();
+        var document_height = $(document).height();
+
+        $('div#body_cover').css({ 'display':'block', 'width':document_width, 'height':document_height });
+        $('div#map_browser').css( { 'display':'block', 'position':'absolute', 'top': $(document).scrollTop() + 100, 'left': '400px' } );
+        $('div#map_browser').animate({'opacity':'1'}, 'slow');
+    });
+
+    $('div#body_cover').click(function(){
+        $('div#map_browser').animate({'opacity':'0'}, 'slow', 'linear', function(){
+            $(this).css({'display':'none'});
+            $('div#body_cover').css({'display':'none'});
+        });
+    });
+
 });

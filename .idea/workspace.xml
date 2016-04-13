@@ -2,60 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e0f154-8b63-40f1-a170-99aca8056d3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/btn_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/btn_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/facebook_share_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/host_introduction1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/host_introduction2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/left_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/other_recommendation1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/other_recommendation1_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/other_recommendation2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/other_recommendation2_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/other_recommendation3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/other_recommendation3_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/qq_share_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/recommendation_section_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/right_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/shining_moment_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/shining_moment_left_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/shining_moment_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/shining_moment_right_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/images/scroll-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/images/scroll-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/photos/blue-fish.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/photos/coral-reef.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/photos/orange-fish.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/photos/red-coral.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/photos/sea-turtle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/photos/small-fish.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/photos/squid.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/photos/yellow-fish.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/thumbnails/blue-fish-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/thumbnails/coral-reef-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/thumbnails/orange-fish-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/thumbnails/red-coral-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/thumbnails/sea-turtle-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/thumbnails/small-fish-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/thumbnails/squid-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/test/thumbnails/yellow-fish-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/top_big_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/top_share_facebook_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/top_share_qq_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/top_share_twitter_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/top_share_weibo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/top_small_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/top_small_image2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/top_small_image3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/top_small_image4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/twitter_share_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/weibo_share_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/activityDetails_main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/activityDetails_main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/slideshow_plugin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activityDetails/slideshow_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activityDetails.html" afterPath="$PROJECT_DIR$/activityDetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activityDetails/activityDetails_main.css" afterPath="$PROJECT_DIR$/activityDetails/activityDetails_main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activityDetails/activityDetails_main.js" afterPath="$PROJECT_DIR$/activityDetails/activityDetails_main.js" />
     </list>
     <list id="5f1e4de3-ed4a-4d07-97ae-937817c7e1e8" name="New changelist" comment="New changelist" />
     <ignored path="CheeseWebsite.iws" />
@@ -77,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activityDetails.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activityDetails.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activityDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-384">
-              <caret line="110" column="56" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
+            <state relative-caret-position="486">
+              <caret line="212" column="38" selection-start-line="212" selection-start-column="38" selection-end-line="212" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activityDetails_main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activityDetails_main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/activityDetails/activityDetails_main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="326" column="19" selection-start-line="326" selection-start-column="19" selection-end-line="326" selection-end-column="19" />
+            <state relative-caret-position="639">
+              <caret line="535" column="17" selection-start-line="535" selection-start-column="17" selection-end-line="535" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -100,8 +49,8 @@
       <file leaf-file-name="activityDetails_main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activityDetails/activityDetails_main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="128" column="87" selection-start-line="128" selection-start-column="85" selection-end-line="128" selection-end-column="87" />
+            <state relative-caret-position="648">
+              <caret line="153" column="45" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -157,8 +106,8 @@
         <option value="$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.js" />
         <option value="$PROJECT_DIR$/registrationSuccess.html" />
         <option value="$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.css" />
-        <option value="$PROJECT_DIR$/activityDetails/activityDetails_main.js" />
         <option value="$PROJECT_DIR$/activityDetails.html" />
+        <option value="$PROJECT_DIR$/activityDetails/activityDetails_main.js" />
         <option value="$PROJECT_DIR$/activityDetails/activityDetails_main.css" />
       </list>
     </option>
@@ -214,6 +163,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CheeseProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheeseProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheeseProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="passedEvents" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,7 +338,7 @@
       <workItem from="1460269412883" duration="8718000" />
       <workItem from="1460300896493" duration="890000" />
       <workItem from="1460370187752" duration="20109000" />
-      <workItem from="1460521450834" duration="3342000" />
+      <workItem from="1460521450834" duration="5309000" />
     </task>
     <task id="LOCAL-00001" summary="Add programs for passedEvents page">
       <created>1459308961897</created>
@@ -402,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226451000" />
+    <option name="totallyTimeSpent" value="228418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="817" extended-state="6" />
@@ -509,13 +472,6 @@
     <entry file="file://$PROJECT_DIR$/passedEvents/video_post_icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="271" column="11" selection-start-line="271" selection-start-column="11" selection-end-line="271" selection-end-column="11" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/globalVolunteers/title_image1.png">
@@ -751,26 +707,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/activityDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="212" column="38" selection-start-line="212" selection-start-column="38" selection-end-line="212" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passedEvents/passedEvents_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="238" column="30" selection-start-line="238" selection-start-column="30" selection-end-line="238" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/activityDetails/activityDetails_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="128" column="87" selection-start-line="128" selection-start-column="85" selection-end-line="128" selection-end-column="87" />
+        <state relative-caret-position="648">
+          <caret line="153" column="45" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/activityDetails/activityDetails_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="326" column="19" selection-start-line="326" selection-start-column="19" selection-end-line="326" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activityDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="110" column="56" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
+        <state relative-caret-position="639">
+          <caret line="535" column="17" selection-start-line="535" selection-start-column="17" selection-end-line="535" selection-end-column="17" />
           <folding />
         </state>
       </provider>

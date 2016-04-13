@@ -206,12 +206,28 @@ div#introduction_fragments div.fragment div.section p{
     text-align: left;
     line-height: 30px;
 }
-div#introduction_fragments div.fragment div#highlights{
+div#introduction_fragments div.fragment div#map{
     position: relative;
     display: block;
     text-align: left;
 }
-/* TODO: the css layout for the activity map */
+div#introduction_fragments div.fragment div#map div#map_container{
+    position: relative;
+    display: inline-block;
+    width: 514px;
+    height: 246px;
+    margin: 40px 20px;
+    vertical-align: bottom;
+}
+div#introduction_fragments div.fragment div#map span{
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 40px 0;
+    cursor: pointer;
+    color: #a3a3a3;
+    border-bottom: 1px solid #a3a3a3;
+}
 div#introduction_fragments div.fragment div.section div#host_icons{
     position: relative;
     display: block;
@@ -498,4 +514,24 @@ div#recommendation div.section div#recommendation_items div.recommendation_item 
 div#recommendation div.section div#recommendation_items div.recommendation_item div.image-cover button:hover{
     background-color: #f25555;
     color: white;
+}
+
+/* The css setup layout for the map browser */
+div#body_cover{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0.8;
+    background-color: white;
+}
+div#map_browser{
+    position: absolute;
+    display: none;
+    width: 640px;
+    height: 400px;
+    opacity: 0;
+    left: 520px;
+    z-index: 1100;
 }
