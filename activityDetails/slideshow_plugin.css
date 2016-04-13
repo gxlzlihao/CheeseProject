@@ -1,0 +1,126 @@
+ul#slideshow {
+    list-style: none;
+    color: #fff;
+    display: none;
+}
+
+#slideshow span {
+    display: none
+}
+
+div#wrapper {
+    width: 506px;
+    background-color: white;
+    margin: 0;
+    display: block;
+    position: absolute;
+    left: 42px;
+    top: 40px;
+    bottom: 60px;
+    margin-right: 20px;
+    width: 500px;
+    height: 450px;
+}
+
+div#wrapper * {
+    margin: 0;
+    padding: 0
+}
+
+div#fullsize {
+    position: absolute;
+    width: 470px;
+    height: 345px;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    /*border: 1px solid #ccc;*/
+    background: white;
+}
+
+div#fullsize div#image {
+    width: 470px;
+    height: 345px;
+    background-color: white;
+}
+
+div#fullsize div#image img {
+    position: absolute;
+    z-index: 25;
+    width: 470px;
+    height: 345px;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+div#thumbnails {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 90px;
+    background-color: white;
+}
+
+div#slideleft {
+    /*float: left;*/
+    position: absolute;
+    margin: 0;
+    width: 30px;
+    height: 90px;
+    left: 30px;
+    top: 0;
+    background: url(test/images/scroll-left.gif) center center no-repeat;
+    /*background-color: #222*/
+}
+
+div#slideleft:hover {
+    /*background-color: #333*/
+}
+
+div#slideright {
+    /*float: right;*/
+    position: absolute;
+    margin: 0;
+    width: 30px;
+    height: 90px;
+    right: 30px;
+    top: 0;
+    background: url(test/images/scroll-right.gif) center center no-repeat
+    /*background-color: #222*/
+}
+
+div#slideright:hover {
+    /*background-color: #333*/
+}
+
+div#slidearea {
+    /*float: left;*/
+    position: absolute;
+    width: 370px;
+    /*margin-left: 5px;*/
+    height: 90px;
+    left: 65px;
+    right: 65px;
+    overflow: hidden
+}
+
+div#slider {
+    position: absolute;
+    left: 0;
+    height: 90px
+}
+
+div#slider img {
+    cursor: pointer;
+    border: 1px solid #666;
+    padding: 2px;
+    width: 80px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

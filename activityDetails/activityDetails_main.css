@@ -1,0 +1,501 @@
+
+body{
+    text-align:center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+div#top{
+    position: relative;
+    margin: 0;
+    width: 1440px;
+    height: 550px;
+    border-top: 20px solid #faac46;
+    background-color: #f2f6f7;
+}
+div.content{
+    margin: 0 auto;
+    position: relative;
+    text-align: middle;
+    width: 1104px;
+    background-color: #f2f6f7;
+}
+div#top>div.content{
+    height: 550px;
+}
+div#top div#top_description{
+    position: absolute;
+    display: block;
+    margin: 0;
+    width: 500px;
+    height: 450px;
+    top: 40px;
+    bottom: 60px;
+    right: 42px;
+    background-color: #f2f6f7;
+}
+div#top div#top_description h2:first-child{
+    font-size: 30px;
+    letter-spacing: 2px;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    color: #3a3a3a;
+}
+div#top div#top_description p{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #666666;
+}
+div#top div#top_description h4:first-of-type{
+    position: relative;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #a3a3a3;
+    font-size: 12px;
+}
+div#top div#top_description h4:nth-of-type(2){
+    position: relative;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #a3a3a3;
+    font-size: 12px;
+}
+div#top div#top_description h3:first-of-type{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+div#top div#top_description h3:nth-of-type(2){
+    position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+div#top div#top_description div#top_registration_share{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    text-align: left;
+}
+div#top div#top_description div#top_registration_share button{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 180px;
+    background-color: #f25555;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+div#top div#top_description div#top_registration_share button:hover{
+    background-color: #e65151;
+}
+div#top div#top_description div#top_registration_share h4{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-right: 0;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #666666;
+}
+div#top div#top_description div#top_registration_share img{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+div#top div#top_description div#top_registration_share img:first-of-type{
+    margin-left: 20px;
+}
+
+/* The layout setup for the introduction panel */
+div#introduction{
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+div#introduction_fragments{
+    position: relative;
+    display: block;
+}
+div#introduction_fragments div.fragment{
+    position: relative;
+    display: block;
+}
+div#introduction_fragments div.fragment div.section{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1104px;
+}
+div#introduction_fragments div.fragment div.section h1{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    padding-left: 13px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 13px;
+    border-left: 4px solid #f25555;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: left;
+}
+div#introduction_fragments div.fragment div.section p{
+    position: relative;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 30px;
+}
+div#introduction_fragments div.fragment div#highlights{
+    position: relative;
+    display: block;
+    text-align: left;
+}
+/* TODO: the css layout for the activity map */
+div#introduction_fragments div.fragment div.section div#host_icons{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+div#introduction_fragments div.fragment div.section div#host_icons img{
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+/* layout for the highlight moments browser */
+div#introduction_fragments div.fragment div.wide_section{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1104px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments ul#highlight_alternatives{
+    display: none;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser{
+    position: relative;
+    display: block;
+    width: 1104px;
+    height: 370px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window{
+    width: 495px;
+    height: 370px;
+    z-index: 2;
+    opacity: 1;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.guide{
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+    opacity: 1;
+    top: 155px;
+    cursor: pointer;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.prepare_left{
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    opacity: 0;
+    left: -468px;
+    right: 1077px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.prepare_right{
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    opacity: 0;
+    right: -468px;
+    left: 1077px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.ready_left{
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    opacity: 0.5;
+    left: -468px;
+    right: 1077px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.ready_right{
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    opacity: 0.5;
+    right: -468px;
+    left: 1077px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.focus_left{
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    opacity: 1;
+    left: 47px;
+    right: 562px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.show_window.focus_right{
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    opacity: 1;
+    right: 47px;
+    left: 562px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.guide#left_guide{
+    left: -93px;
+    right: 1137px;
+}
+div#introduction_fragments div.fragment div.wide_section#highlight_moments div#image_browser img.guide#right_guide{
+    right: -93px;
+    left: 1137px;
+}
+/* to set up layout for recommendation panel */
+div#recommendation{
+    position: relative;
+    display: block;
+    width: 1440px;
+    background-color: #f2f6f7;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+div#recommendation div.section{
+    position: relative;
+    display: block;
+    width: 1104px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: #f2f6f7;
+    overflow: hidden;
+}
+div#recommendation div.section img#recommendation_section_title{
+    position: relative;
+    display: block;
+    width: 1104px;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+div#recommendation div.section div#recommendation_items{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1104px;
+    text-align: center;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item{
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    background-color: #f2f6f7;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:first-of-type{
+    margin-left: 0;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item img.background-image{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 220px;
+    z-index: 1;
+    marign: 0;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item img.top-image{
+    position: absolute;
+    display: block;
+    width: 280px;
+    height: 210px;
+    margin: 0;
+    top: 80px;
+    left: 20px;
+    z-index: 2;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item span:first-of-type{
+    display: block;
+    position: absolute;
+    margin: 0;
+    width: 310px;
+    top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    z-index: 2;
+    text-align: left;
+    left: 20px;
+    text-overflow: ellipsis;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item span:last-of-type{
+    display: block;
+    position: absolute;
+    margin: 0;
+    width: 310px;
+    top: 47px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    z-index: 2;
+    text-align: left;
+    color: white;
+    left: 20px;
+    text-overflow: ellipsis;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(2) span{
+    left: 35px;
+    width: 295px
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(2) img.top-image{
+    left: 35px;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(3) span{
+    left: 50px;
+    width: 280px
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(3) img.top-image{
+    left: 50px;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item div.image-cover{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    margin: 0;
+    width: 250px;
+    height: 180px;
+    top: 95px;
+    left: 35px;
+    /*opacity: 0.8;*/
+    opacity: 0;
+    background-color: white;
+    cursor: pointer;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(2) div.image-cover{
+    left: 50px;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item:nth-child(3) div.image-cover{
+    left: 65px;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item div.image-cover p{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-indent: 35px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item div.image-cover button{
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    height: 35px;
+    width: 155px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid #f25555;
+    background-color: white;
+    opacity: 1;
+    color: #f25555;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+div#recommendation div.section div#recommendation_items div.recommendation_item div.image-cover button:hover{
+    background-color: #f25555;
+    color: white;
+}
