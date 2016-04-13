@@ -1,0 +1,85 @@
+body{
+    text-align:center;
+    overflow: scroll;
+}
+div#main{
+    position: relative;
+    display: block;
+    width: 1440px;
+    height: 700px;
+    text-align: center;
+    overflow-y: hidden;
+}
+div#main img#background_image{
+    position:absolute;
+    display: block;
+    width: 1440px;
+    height: 700px;
+    top: 0;
+    left: 0;
+}
+div#main img#registration_success_icon{
+    position: relative;
+    display: block;
+    width: 330px;
+    height: 330px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+div#main h1#title{
+    position: relative;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #f25555;
+}
+div#main h2#remind{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+div#main button#more{
+    position: relative;
+    display: block;
+    margin-top: 35px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    height: 37px;
+    width: 155px;
+    background-color: #faac46;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+div#main button#more:hover{
+    background-color: #eda342;
+}
+div#main div#seperation_bar{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    height: 2px;
+    width: 532px;
+    background-color: #faac46;
+}

@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e0f154-8b63-40f1-a170-99aca8056d3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation1_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation2_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/other_recommendation3_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/recommendation_section_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationForm/shining_moment_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationSuccess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registrationForm.html" afterPath="$PROJECT_DIR$/registrationForm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registrationForm/registrationForm_main.css" afterPath="$PROJECT_DIR$/registrationForm/registrationForm_main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registrationForm/registrationForm_main.js" afterPath="$PROJECT_DIR$/registrationForm/registrationForm_main.js" />
     </list>
     <list id="5f1e4de3-ed4a-4d07-97ae-937817c7e1e8" name="New changelist" comment="New changelist" />
     <ignored path="CheeseWebsite.iws" />
@@ -35,31 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="registrationForm.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/registrationForm.html">
+      <file leaf-file-name="registrationSuccess.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registrationSuccess.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="136" column="45" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
+            <state relative-caret-position="360">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registrationForm_main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.css">
+      <file leaf-file-name="registrationSuccess_main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="605" column="1" selection-start-line="605" selection-start-column="1" selection-end-line="605" selection-end-column="1" />
+            <state relative-caret-position="636">
+              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registrationForm_main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.js">
+      <file leaf-file-name="registrationSuccess_main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="160" column="42" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,6 +104,9 @@
         <option value="$PROJECT_DIR$/registrationForm.html" />
         <option value="$PROJECT_DIR$/registrationForm/registrationForm_main.css" />
         <option value="$PROJECT_DIR$/registrationForm/registrationForm_main.js" />
+        <option value="$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.js" />
+        <option value="$PROJECT_DIR$/registrationSuccess.html" />
+        <option value="$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.css" />
       </list>
     </option>
   </component>
@@ -123,7 +118,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="817" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -150,7 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,7 +174,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scientificResearch" />
+              <option name="myItemId" value="registrationSuccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,27 +202,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projectDetails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheeseProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,10 +226,7 @@
       <recent name="$PROJECT_DIR$/projectDetails/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.registrationForm.html">
-    <configuration default="false" name="AboutUs.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CheeseProject/AboutUs.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.registrationSuccess.html">
     <configuration default="false" name="travelStudies.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CheeseProject/travelStudies.html">
       <method />
     </configuration>
@@ -259,6 +237,9 @@
       <method />
     </configuration>
     <configuration default="false" name="registrationForm.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CheeseProject/registrationForm.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="registrationSuccess.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CheeseProject/registrationSuccess.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -315,19 +296,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AboutUs.html (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.travelStudies.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.activityList.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.scientificResearch.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.registrationForm.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.travelStudies.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.activityList.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scientificResearch.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.registrationForm.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.registrationSuccess.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.registrationForm.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.scientificResearch.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.travelStudies.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.activityList.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.AboutUs.html (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.registrationSuccess.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.registrationForm.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scientificResearch.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.travelStudies.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.activityList.html" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +348,8 @@
       <workItem from="1460265994489" duration="2826000" />
       <workItem from="1460269412883" duration="8718000" />
       <workItem from="1460300896493" duration="890000" />
-      <workItem from="1460370187752" duration="19569000" />
+      <workItem from="1460370187752" duration="20109000" />
+      <workItem from="1460521450834" duration="1570000" />
     </task>
     <task id="LOCAL-00001" summary="Add programs for passedEvents page">
       <created>1459308961897</created>
@@ -394,13 +376,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222569000" />
+    <option name="totallyTimeSpent" value="224679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="813" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1440" height="817" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -441,26 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projectDetails/shining_moment_left.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/recommendation_section_title.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/shining_moment_right_right.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/registration_process3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projectDetails/other_recommendation3_image.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -695,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="189" column="4" selection-start-line="189" selection-start-column="4" selection-end-line="191" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,13 +664,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="676" column="0" selection-start-line="676" selection-start-column="0" selection-end-line="840" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
+        <state relative-caret-position="2400">
           <caret line="160" column="42" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
           <folding />
         </state>
@@ -719,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="46" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,22 +686,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="236" column="8" selection-start-line="236" selection-start-column="8" selection-end-line="270" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="605" column="1" selection-start-line="605" selection-start-column="1" selection-end-line="605" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/registrationForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="136" column="45" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="17" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationSuccess/registration_success_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationForm/registrationForm_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="184" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationSuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationSuccess/registrationSuccess_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding />
         </state>
       </provider>
