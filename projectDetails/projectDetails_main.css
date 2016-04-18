@@ -59,6 +59,7 @@ div#top{
     height: 550px;
     border-top: 20px solid #faac46;
     background-color: #f2f6f7;
+    overflow-y: hidden;
 }
 div.content{
     margin: 0 auto;
