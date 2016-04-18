@@ -1,0 +1,409 @@
+body{
+    position: relative;
+    overflow-x: scroll;
+    text-align: center;
+}
+div.section{
+    position: relative;
+    display: block;
+    width: 1440px;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+div.section#top{
+    height: 580px;
+}
+div.section#top img.background_image{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 580px;
+    margin: 0;
+}
+div.section#top img.title{
+    position: relative;
+    display: block;
+    margin-left: 710px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+div.section#top img.title:nth-of-type(2){
+    margin-top: 150px;
+}
+div.section#top img.title:nth-of-type(3){
+    margin-top: 25px;
+}
+div.section#introduction{
+    position: relative;
+    display: block;
+    background-color: white;
+    text-align: center;
+}
+div.section#introduction img.title{
+    position: relative;
+    display: block;
+    width: 720px;
+    height: 55px;
+    margin-top: 70px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.section#introduction h1.title{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+}
+div.section#introduction button.join_button{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    height: 35px;
+    width: 210px;
+    background-color: #faac46;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+div.section#introduction button.join_button:hover{
+    background-color: #eda342;
+}
+div.section#introduction div.description{
+    position: relative;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+div.section#introduction div.description p{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 25px;
+    color: #666666;
+}
+div.section#introduction div.description p:first-child{
+    margin-top: 0;
+}
+div.section#offer{
+    /*background-color: #fcc57e;*/
+    background-color: #ffe24d;
+}
+div.section#offer img.title{
+    position: relative;
+    display: block;
+    width: 720px;
+    height: 55px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.section#offer h1.title{
+    position: relative;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #faac46;
+}
+div.section#offer div#card_row{
+    position: relative;
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+}
+div.section#offer div#card_row div.card_item{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    width: 298px;
+    height: 395px;
+}
+div.section#offer div#card_row div.card_item img.card_background{
+    position: relative;
+    display: block;
+    width: 298px;
+    height: 395px;
+}
+div.section#offer div#card_row div.card_item p.card_description{
+    position: absolute;
+    display: block;
+    width: 210px;
+    height: 285px;
+    top: 110px;
+    left: 44px;
+    font-size: 17px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    color: #666666;
+    letter-spacing: 1px;
+}
+div.section#why_need_you{
+    position: relative;
+    display: block;
+    width: 1440px;
+    background-color: white;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 155px;
+}
+div.section#why_need_you img.title{
+    position: relative;
+    display: inline-block;
+    height: 360px;
+    width: 360px;
+    margin: 0;
+    vertical-align: middle;
+}
+div.section#why_need_you div.reason_list{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+div.section#why_need_you div.reason_list ul li{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    text-align: left;
+}
+div.section#why_need_you div.reason_list ul li:first-child{
+    margin-top: 0;
+}
+div.section#why_need_you div.reason_list ul li img{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+div.section#why_need_you div.reason_list ul li span{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 20px;
+    color: #666666;
+    width: 630px;
+}
+div.section#registration{
+    background-color: #0edfc5;
+    text-align: center;
+}
+div.section#registration img.title{
+    position: relative;
+    display: block;
+    width: 720px;
+    height: 25px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.section#registration div.description{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+div.section#registration div.description p{
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    width: 720px;
+    color: white;
+    margin: 0 auto;
+}
+div.section#registration div.methods{
+    position: relative;
+    display: block;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+div.section#registration div.methods div.method{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 280px;
+    margin: 0;
+    text-align: left;
+}
+div.section#registration div.methods div.method:first-child{
+    width: 440px;
+    margin-right: 20px;
+}
+div.section#registration div.methods div.method:last-child{
+    width: 240px;
+}
+div.section#registration div.methods div.method h1{
+    position: relative;
+    display: block;
+    color: #3a3a3a;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+div.section#registration div.methods div.method h2{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+    margin: 0;
+}
+div.section#registration div.methods div.method h2:first-of-type{
+    margin-top: 15px;
+}
+div.section#registration div.methods div.method div.seperation_bar{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 440px;
+    background-color: white;
+}
+div.section#registration div.methods div.method img#qr_code_image{
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 240px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+div.section#night_description{
+    height: 320px;
+    width: 1440px;
+    margin: 0 auto;
+}
+div.section#night_description img.background_image{
+    position: absolute;
+    display: block;
+    width: 1440px;
+    height: 320px;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+div.section#night_description img.up_quote{
+    position: relative;
+    display: block;
+    margin-top: 60px;
+    margin-left: 270px;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 25px;
+    height: 25px;
+}
+div.section#night_description div.description{
+    position:relative;
+    display: block;
+    text-align: center;
+}
+div.section#night_description div.description p{
+    position: relative;
+    display: block;
+    color: white;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+div.section#night_description img.down_quote{
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+    margin-right: 270px;
+    margin-left: 1145px;
+    margin-top: 30px;
+    width: 25px;
+    height: 25px;
+}
+div.section#last_section{
+    background-color: white;
+}
+div.section#last_section input{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 400px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #faac46;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+div.section#last_section button{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #faac46;
+    background-color: #faac46;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+div.section#last_section button:hover{
+    background-color: #eda342;
+    border-color: #eda342;
+}
+
