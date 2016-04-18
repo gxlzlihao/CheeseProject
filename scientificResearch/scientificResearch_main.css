@@ -93,36 +93,27 @@ div#main div.section div.content{
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+    /*overflow-y: hidden;*/
 }
 div#main div.section div.content div.item{
+    position: absolute;
+    display: block;
+    height: 400px;
+    width: 348px;
+    margin: 0;
     -webkit-box-shadow: 3px 3px 10px grey;
     box-shadow: 3px 3px 10px grey;
     text-align: center;
 }
 div#main div.section div.content div.item:first-child{
-    position: absolute;
-    display: block;
     top: 0;
     left: 0;
-    height: 400px;
-    width: 348px;
-    margin: 0;
 }
 div#main div.section div.content div.item:nth-child(2){
-    position: absolute;
-    display: block;
-    height: 400px;
-    width: 348px;
-    margin: 0;
     top: 0;
     left: 368px;
 }
-div#main div.section div.content div.item:last-child{
-    position: absolute;
-    display: block;
-    height: 400px;
-    width: 348px;
-    margin: 0;
+div#main div.section div.content div.item:nth-child(3){
     top: 0;
     left: 736px;
 }
@@ -197,4 +188,53 @@ div#main div.section div.content div.item div.item_cover button:hover{
     color: white;
     background-color: #e65151;
     border-color: #e65151;
+}
+div.section div.more_bar{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 1084px;
+    height: 25px;
+    background: transparent;
+    border-bottom: 2px solid #faac46;
+    text-align: right;
+}
+div.section div.more_bar div.more_button{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    height: 25px;
+    width: 110px;
+    text-align: right;
+    background-color: #faac46;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+div.section div.more_bar div.more_button img{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    margin: 5px 0;
+}
+div.section div.more_bar div.more_button span{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 80px;
+    color: white;
+    margin: 5px 0;
 }

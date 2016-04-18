@@ -11,4 +11,8 @@ $(document).ready(function(){
         $('div.section#night_description').children('img.background_image').css({ 'height':div_height });
     }
 
+    $('div.section#introduction').children('button.join_button').click(function(){
+        $("html,body").animate({ 'scrollTop':$("div.section#registration").offset().top }, 'slow' );
+    });
+
 });
