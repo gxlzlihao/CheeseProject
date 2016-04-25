@@ -1,0 +1,64 @@
+div.fragment div.discussion_area{
+    position: relative;
+    display: block;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #f2f6f7;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow-y: hidden;
+}
+div.fragment div.discussion_area div.opinion{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    width: 900px;
+    background-color: transparent;
+    overflow: hidden;
+}
+div.fragment div.discussion_area div.opinion:last-child{
+    margin-bottom: 20px;
+}
+div.fragment div.discussion_area div.opinion img.avatar{
+    position: absolute;
+    display: block;
+    z-index: 10;
+    left: 0;
+    right: 810px;
+    top: 0;
+    width: 90px;
+    height: 90px;
+    margin: 0;
+}
+div.fragment div.discussion_area div.opinion div.opinion_area{
+    position: relative;
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    width: 800px;
+    background-color: #e65151;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+div.fragment div.discussion_area div.opinion div.opinion_area p{
+    position:relative;
+    display: block;
+    margin: 30px 60px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: left;
+}

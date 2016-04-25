@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e0f154-8b63-40f1-a170-99aca8056d3c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projectDetails/projectDetails_fragment2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projectDetails/projectDetails_fragment3.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partnership/partnership_main.js" afterPath="$PROJECT_DIR$/partnership/partnership_main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectDetails.html" afterPath="$PROJECT_DIR$/projectDetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectDetails/projectDetails_main.css" afterPath="$PROJECT_DIR$/projectDetails/projectDetails_main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectDetails/projectDetails_main.js" afterPath="$PROJECT_DIR$/projectDetails/projectDetails_main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scientificResearch.html" afterPath="$PROJECT_DIR$/scientificResearch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scientificResearch/scientificResearch_main.css" afterPath="$PROJECT_DIR$/scientificResearch/scientificResearch_main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scientificResearch/scientificResearch_main.js" afterPath="$PROJECT_DIR$/scientificResearch/scientificResearch_main.js" />
     </list>
     <list id="5f1e4de3-ed4a-4d07-97ae-937817c7e1e8" name="New changelist" comment="New changelist" />
     <ignored path="CheeseWebsite.iws" />
@@ -28,31 +30,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scientificResearch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scientificResearch.html">
+      <file leaf-file-name="projectDetails.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="257" column="30" selection-start-line="257" selection-start-column="30" selection-end-line="257" selection-end-column="68" />
+            <state relative-caret-position="-3645">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scientificResearch_main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.js">
+      <file leaf-file-name="projectDetails_fragment3.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_fragment3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="59" column="86" selection-start-line="59" selection-start-column="86" selection-end-line="59" selection-end-column="86" />
+            <state relative-caret-position="430">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scientificResearch_main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.css">
+      <file leaf-file-name="projectDetails_main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+            <state relative-caret-position="454">
+              <caret line="306" column="31" selection-start-line="306" selection-start-column="31" selection-end-line="306" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -64,8 +66,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -81,7 +83,6 @@
         <option value="$PROJECT_DIR$/PassedEvents/passedEvents_main.css" />
         <option value="$PROJECT_DIR$/projectDetails/slideshow_plugin.js" />
         <option value="$PROJECT_DIR$/projectDetails/slideshow_plugin.css" />
-        <option value="$PROJECT_DIR$/projectDetails/projectDetails_main.js" />
         <option value="$PROJECT_DIR$/passedEvents/passedEvents_main.css" />
         <option value="$PROJECT_DIR$/passedEvents/passedEvents_main.js" />
         <option value="$PROJECT_DIR$/globalVolunteer.html" />
@@ -92,7 +93,6 @@
         <option value="$PROJECT_DIR$/travelStudies/travelStudies_main.js" />
         <option value="$PROJECT_DIR$/common/reset.css" />
         <option value="$PROJECT_DIR$/travelStudies.html" />
-        <option value="$PROJECT_DIR$/projectDetails.html" />
         <option value="$PROJECT_DIR$/PassedEvents.html" />
         <option value="$PROJECT_DIR$/globalVolunteers.html" />
         <option value="$PROJECT_DIR$/activityList.html" />
@@ -107,13 +107,17 @@
         <option value="$PROJECT_DIR$/activityDetails.html" />
         <option value="$PROJECT_DIR$/activityDetails/activityDetails_main.js" />
         <option value="$PROJECT_DIR$/activityDetails/activityDetails_main.css" />
-        <option value="$PROJECT_DIR$/projectDetails/projectDetails_main.css" />
         <option value="$PROJECT_DIR$/partnership/partnership_main.css" />
         <option value="$PROJECT_DIR$/partnership.html" />
         <option value="$PROJECT_DIR$/partnership/partnership_main.js" />
         <option value="$PROJECT_DIR$/scientificResearch/scientificResearch_main.css" />
-        <option value="$PROJECT_DIR$/scientificResearch.html" />
         <option value="$PROJECT_DIR$/scientificResearch/scientificResearch_main.js" />
+        <option value="$PROJECT_DIR$/scientificResearch.html" />
+        <option value="$PROJECT_DIR$/projectDetails/projectDetails_main.css" />
+        <option value="$PROJECT_DIR$/projectDetails/projectDetails_fragment2.css" />
+        <option value="$PROJECT_DIR$/projectDetails.html" />
+        <option value="$PROJECT_DIR$/projectDetails/projectDetails_fragment3.css" />
+        <option value="$PROJECT_DIR$/projectDetails/projectDetails_main.js" />
       </list>
     </option>
   </component>
@@ -125,7 +129,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="824" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -182,7 +186,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scientificResearch" />
+              <option name="myItemId" value="projectDetails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheeseProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheeseProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectDetails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,7 +231,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/template" />
+    <property name="last_opened_file_path" value="$USER_HOME$/CheeseProject/cheese" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
@@ -220,7 +242,7 @@
       <recent name="$PROJECT_DIR$/projectDetails/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.scientificResearch.html">
+  <component name="RunManager" selected="JavaScript Debug.projectDetails.html">
     <configuration default="false" name="registrationForm.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CheeseProject/registrationForm.html">
       <method />
     </configuration>
@@ -298,10 +320,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.scientificResearch.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.partnership.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.activityDetails.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.projectDetails.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.projectDetails.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.scientificResearch.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.partnership.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.activityDetails.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.registrationForm.html" />
       </list>
     </recent_temporary>
@@ -349,7 +371,10 @@
       <workItem from="1460947843379" duration="13390000" />
       <workItem from="1460970959885" duration="553000" />
       <workItem from="1460971820408" duration="289000" />
-      <workItem from="1460972235123" duration="3354000" />
+      <workItem from="1460972235123" duration="5893000" />
+      <workItem from="1461137447748" duration="190000" />
+      <workItem from="1461228121876" duration="3927000" />
+      <workItem from="1461565665761" duration="13456000" />
     </task>
     <task id="LOCAL-00001" summary="Add programs for passedEvents page">
       <created>1459308961897</created>
@@ -376,10 +401,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249968000" />
+    <option name="totallyTimeSpent" value="270080000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -423,33 +448,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AboutUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registrationForm/tips_step1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registrationForm/tips_step3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registrationForm/tips_step4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registrationForm/form_title_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registrationForm/form_background.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -565,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/activityDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activityDetails/activityDetails_main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -596,33 +587,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partnership/section_title1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partnership/QR_code2.png" />
-    <entry file="file://$PROJECT_DIR$/projectDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="26" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/globalVolunteers/globalVolunteers_main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -699,6 +669,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scientificResearch/arrow_up_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activityDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scientificResearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectDetails/sub1/teacher1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AboutUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-815">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectDetails/sub1/btn_left.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_fragment2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="124" column="39" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partnership/partnership_main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -707,31 +748,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scientificResearch.html">
+    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_fragment3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="257" column="30" selection-start-line="257" selection-start-column="30" selection-end-line="257" selection-end-column="68" />
+        <state relative-caret-position="430">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scientificResearch/arrow_up_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.css">
+    <entry file="file://$PROJECT_DIR$/projectDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        <state relative-caret-position="-3645">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scientificResearch/scientificResearch_main.js">
+    <entry file="file://$PROJECT_DIR$/projectDetails/projectDetails_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="59" column="86" selection-start-line="59" selection-start-column="86" selection-end-line="59" selection-end-column="86" />
+        <state relative-caret-position="454">
+          <caret line="306" column="31" selection-start-line="306" selection-start-column="31" selection-end-line="306" selection-end-column="31" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,169 @@
+/* The css layout for the class introduction panel */
+div.fragment div.section div.gallery{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+    width: 1100px;
+    text-align: center;
+}
+div.fragment div.section div.gallery div.item{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 255px;
+    height: 330px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 20px;
+    background-color: white;
+    text-align: center;
+}
+div.fragment div.section div.gallery div.item:last-child{
+    margin-right: 0;
+}
+div.fragment div.section div.gallery div.item div.class_special{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    top: 30px;
+    width: 255px;
+}
+div.fragment div.section div.gallery div.item div.class_special img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+div.fragment div.section div.gallery div.item h2{
+    position: absolute;
+    display: block;
+    margin: 0;
+    width: 170px;
+    top: 170px;
+    left: 42px;
+    font-size: 15px;
+    text-align: center;
+}
+div.fragment div.section div.gallery div.item p{
+    position: relative;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 180px;
+    width: 170px;
+    left: 22px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #666666;
+}
+div.fragment div.section div.gallery div.item img.class_teacher{
+    position: absolute;
+    display: block;
+    margin: 0;
+    width: 255px;
+    height: 330px;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+div.fragment div.section div.gallery div.item span.teacher_name{
+    position: relative;
+    display: block;
+    top: 265px;
+    width: 255px;
+    text-align: center;
+    font-size: 20px;
+    color: #3a3a3a;
+}
+div.fragment div.section div.gallery div.item span.teacher_title{
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 0;
+    top: 265px;
+    width: 255px;
+    text-align: center;
+    font-size: 13px;
+    color: #666666;
+}
+
+div#certificate_gallery{
+    position: relative;
+    display: block;
+    width: 1440px;
+    height: 384px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #3a3a3a;
+}
+div#certificate_gallery div.alternatives{
+    display: none;
+}
+div#certificate_gallery img.guide{
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+div#certificate_gallery img.guide.left_arrow{
+    left: 75px;
+    top: 162px;
+}
+div#certificate_gallery img.guide.right_arrow{
+    right: 75px;
+    top: 162px;
+}
+
+div#certificate_gallery img.certificate_image{
+    position: absolute;
+    display: block;
+    width: 255px;
+    height: 320px;
+    margin: 0;
+    z-index: 5;
+    top: 30px;
+    opacity: 1;
+}
+div#certificate_gallery img.certificate_image.hide_left{
+    opacity: 0;
+    left: -95px;
+    right: 1280px;
+}
+div#certificate_gallery img.certificate_image.most_left{
+    left: 180px;
+    right: 1005px;
+}
+div#certificate_gallery img.certificate_image.middle_left{
+    left: 455px;
+    right: 730px;
+}
+div#certificate_gallery img.certificate_image.middle_right{
+    left: 730px;
+    right: 455px;
+}
+div#certificate_gallery img.certificate_image.most_right{
+    left: 1005px;
+    right: 180px;
+}
+div#certificate_gallery img.certificate_image.hide_right{
+    opacity: 0;
+    right: -95px;
+    left: 1280px;
+}
